@@ -1,0 +1,736 @@
+head	1.34;
+access;
+symbols;
+locks;
+comment	@// @;
+
+
+1.34
+date	2013.01.18.00.22.33;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2013.01.18.00.13.21;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2013.01.18.00.13.03;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2013.01.17.03.59.44;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2013.01.17.03.20.06;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2013.01.17.02.54.40;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2013.01.17.02.50.30;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2013.01.17.02.43.24;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2013.01.17.02.42.47;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2013.01.17.02.34.22;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2013.01.17.02.30.34;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2013.01.17.02.24.10;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2013.01.17.02.20.29;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2013.01.17.02.18.59;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2013.01.17.02.18.06;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2013.01.17.01.59.50;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2013.01.17.01.52.25;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2013.01.16.18.20.55;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2013.01.16.18.19.47;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2013.01.16.18.17.47;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2013.01.15.03.40.46;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2013.01.15.03.39.55;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2013.01.15.03.38.28;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.01.15.03.35.33;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.01.15.03.33.47;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.01.15.03.21.04;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.01.15.03.20.25;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.01.15.03.17.46;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.01.15.03.17.10;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.01.15.03.16.14;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.01.15.03.15.07;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.01.15.03.07.10;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.01.15.03.04.39;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.01.10.01.34.20;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.34
+log
+@-
+@
+text
+@// $Id: yshell.cpp,v 1.33 2013-01-17 16:13:21-08 - - $
+
+#include <cstdlib>
+#include <iostream>
+#include <string>
+#include <utility>
+#include <unistd.h>
+
+using namespace std;
+
+#include "commands.h"
+#include "trace.h"
+#include "inode.h"
+#include "util.h"
+
+//
+// scan_options
+//    Options analysis:  The only option is -Dflags. 
+//
+
+void scan_options (int argc, char **argv) {
+   opterr = 0;
+   for (;;) {
+      int option = getopt (argc, argv, "@@:");
+      if (option == EOF) break;
+      switch (option) {
+         case '@@':
+            traceflags::setflags (optarg);
+            break;
+         default:
+            complain() << "-" << (char) option << ": invalid option"
+                       << endl;
+            break;
+      }
+   }
+   if (optind < argc) {
+      complain() << "operands not permitted" << endl;
+   }
+}
+
+
+//
+// main -
+//    Main program which loops reading commands until end of file.
+//
+
+int main (int argc, char **argv) {
+   setexecname (argv[0]);
+   cout << boolalpha; // Print false or true instead of 0 or 1.
+   cerr << boolalpha;
+   scan_options (argc, argv);
+   bool need_echo = want_echo();
+   commands cmdmap;
+   string prompt;
+   inode root(DIR_INODE);
+   inode_state state(root,root,"%");
+   state.init_state(root);
+   //state.set_prompt("%");
+   prompt = state.return_prompt();
+   try {
+      for (;;) {
+         try {
+            // Read a line, break at EOF, and echo print the prompt
+            // if one is needed.
+            prompt = state.return_prompt();
+            cout << prompt << " ";
+            string line;
+            getline (cin, line);
+            if (cin.eof()) {
+               if (need_echo) cout << "^D";
+               cout << endl;
+               TRACE ('y', "EOF");
+               break;
+            }
+            if (need_echo) cout << line << endl;
+   
+            // Split the line into words and lookup the appropriate
+            // function.  Complain or call it.
+            wordvec words = split (line, " \t");
+            TRACE ('y', "words = " << words);
+            function fn = cmdmap[words.at(0)];
+            if (fn == NULL) {
+               throw yshell_exn (words[0] + ": no such function");
+            }
+            fn (state, words);
+         }catch (yshell_exn &exn) {
+            // If there is a problem discovered in any function, an
+            // exn is thrown and printed here.
+            complain() << exn.what() << endl;
+         }
+      }
+   } catch (ysh_exit_exn &) {
+      // This catch intentionally left blank.
+   }
+
+   return exit_status_message();
+}
+
+
+@
+
+
+1.33
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.32 2013-01-17 16:13:03-08 - - $
+d57 1
+a57 1
+   state.init_state();
+@
+
+
+1.32
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.31 2013-01-16 19:59:44-08 - - $
+d57 1
+a57 1
+   state.init_state
+@
+
+
+1.31
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.30 2013-01-16 19:20:06-08 - - $
+d57 1
+@
+
+
+1.30
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.29 2013-01-16 18:54:40-08 - - $
+d56 1
+a56 1
+   inode_state state = new inode_state(root,root,"%");
+@
+
+
+1.29
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.28 2013-01-16 18:50:30-08 - - $
+d55 3
+a57 2
+   inode_state state;
+   state.set_prompt("%");
+a58 3
+   inode root(DIR_INODE);
+   root.contents->dirents.insert(pair<string,root*>("./",root));
+   root.contents->dirents.insert(pair<string,root*>("../",root));
+@
+
+
+1.28
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.22 2013-01-16 18:20:29-08 - - $
+d59 1
+a59 1
+   root.contents.dirents.insert(pair<string,root*>("./",root));
+@
+
+
+1.27
+log
+@-
+@
+text
+@d59 1
+a59 1
+   state.root->contents.dirents.insert(pair<string,root*>("./",root));
+@
+
+
+1.26
+log
+@-
+@
+text
+@d59 1
+a59 1
+   state.root->contents->dirents.insert(pair<string,root*>("./",root));
+@
+
+
+1.25
+log
+@-
+@
+text
+@d59 1
+a59 1
+   root.contents->dirents.insert(pair<string,root*>("./",root));
+@
+
+
+1.24
+log
+@-
+@
+text
+@d59 2
+a60 2
+   (root.contents->dirents).insert(pair<string,root*>("./",root));
+   (root.contents->dirents).insert(pair<string,root*>("../",root));
+@
+
+
+1.23
+log
+@-
+@
+text
+@d59 2
+a60 2
+   contents->dirents.insert(pair<string,root*>("./",root));
+   contents->dirents.insert(pair<string,root*>("../",root));
+@
+
+
+1.22
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.18 2013-01-16 17:52:25-08 - - $
+d59 2
+a60 2
+   root.contents->dirents.insert(pair<string,root*>("./",root));
+   root.contents->dirents.insert(pair<string,root*>("../",root));
+@
+
+
+1.21
+log
+@-
+@
+text
+@d59 2
+a60 2
+   root.dirents.insert(pair<string,root*>("./",root));
+   root.dirents.insert(pair<string,root*>("../",root));
+@
+
+
+1.20
+log
+@-
+@
+text
+@d59 2
+a60 2
+   root->dirents.insert(pair<string,root*>("./",root));
+   root->dirents.insert(pair<string,root*>("../",root));
+@
+
+
+1.19
+log
+@-
+@
+text
+@d58 3
+a60 1
+  // state.set_root();
+@
+
+
+1.18
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.17 2013-01-16 10:20:55-08 - - $
+d58 1
+a58 1
+   state.set_root();
+@
+
+
+1.17
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.14 2013-01-14 19:40:46-08 - - $
+d58 1
+@
+
+
+1.16
+log
+@-
+@
+text
+@d63 1
+a63 1
+            
+@
+
+
+1.15
+log
+@-
+@
+text
+@d63 1
+a63 1
+            state.
+@
+
+
+1.14
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.13 2013-01-14 19:39:55-08 - - $
+d54 1
+a54 1
+   string prompt = "%";
+d56 2
+a60 1
+   
+d63 1
+@
+
+
+1.13
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.12 2013-01-14 19:38:28-08 - - $
+d55 1
+a55 1
+   inode_state state = new inode_state();
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.11 2013-01-14 19:35:33-08 - - $
+d55 1
+a55 1
+   inode_state state = new inode_state;
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.10 2013-01-14 19:33:47-08 - - $
+d55 1
+a55 1
+   inode_state state;
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.9 2013-01-14 19:21:04-08 - - $
+d77 1
+a77 1
+            function fn = cmdmap[words[0]];
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.8 2013-01-14 19:20:25-08 - - $
+d41 1
+a41 4
+void intialize_state(inode_state &state){
+   state.root->contents->dirents.insert(pair<string,inode*>("./",state->root));
+   state.root->contents->dirents.insert(pair<string,inode*>("../",state->root));
+}
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.7 2013-01-14 19:17:46-08 - - $
+d42 2
+a43 2
+   state->root.contents->dirents.insert(pair<string,inode*>("./",state->root));
+   state->root.contents->dirents.insert(pair<string,inode*>("../",state->root));
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.6 2013-01-14 19:17:10-08 - - $
+d42 2
+a43 2
+   contents->dirents.insert(pair<string,inode*>("./",state->root));
+   contents->dirents.insert(pair<string,inode*>("../",state->root));
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.5 2013-01-14 19:16:14-08 - - $
+d42 2
+a43 2
+   contents->dirents.insert(pairs<string,inode*>("./",state->root));
+   contents->dirents.insert(pairs<string,inode*>("../",state->root));
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.4 2013-01-14 19:15:07-08 - - $
+d42 2
+a43 2
+	state.contents->dirents.insert(pairs<string,inode*>("./",root));
+	state.contents->dirents.insert(pairs<string,inode*>("../",root));
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.3 2013-01-14 19:07:10-08 - - $
+d41 4
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.2 2013-01-14 19:04:39-08 - - $
+a40 5
+void intialize_state(inode_state &state){
+	state.contents->dirents.insert(pair<string,inode*>("./",root);
+	state.contents->dirents.insert(pair<string,inode*>("../",root);
+}
+
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.1 2013-01-09 17:34:20-08 - - $
+d42 2
+a43 2
+	contents->dirents.insert(pair<string,inode*>("./",root);
+	contents->dirents.insert(pair<string,inode*>("../",root);
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: yshell.cpp,v 1.4 2012-04-12 14:11:50-07 - - $
+d41 4
+@

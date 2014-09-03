@@ -1,0 +1,6 @@
+# Makefile.dep created Fri Jan 25 12:44:10 PST 2013
+bigint.o: bigint.cpp bigint.h trace.h
+scanner.o: scanner.cpp scanner.h trace.h
+trace.o: trace.cpp trace.h
+util.o: util.cpp util.h trace.h
+main.o: main.cpp bigint.h trace.h iterstack.h util.h scanner.h

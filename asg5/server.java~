@@ -1,0 +1,150 @@
+// $Id: server.java,v 1.1 2010-02-23 19:35:28-08 - - $
+
+import java.io.*;
+import java.net.*;
+import java.util.*;
+import java.util.concurrent.*;
+import static java.lang.System.*;
+
+class server {
+  private ServerSocket socket;
+  static BlockingQueue<String> buffer;
+  Thread main_server_thread;
+  static user_manger list_of_users;
+  
+  
+  server (chatter.options opts) {
+    try{
+      buffer = new LinkedBlockingQueue<String> ();
+      list_of_users = new user_manger();
+      socket = new ServerSocket (opts.server_portnumber);
+      main_server_thread = new Thread (new main_server(opts, socket));
+      main_server_thread.start();
+    } catch(IOException exn){
+      exit(1);
+    } 
+  }
+  
+  static String poll (BlockingQueue<String> source, long msec){
+    String msg;
+    try{
+      msg = source.poll(msec, TimeUnit.MILLISECONDS);
+    } catch (InterruptedException exn){
+      msg = null;
+    }
+    return msg;
+  }
+  
+  static void put (BlockingQueue<String> source, String msg){
+    try{
+      source.put(msg);
+    } catch (InterruptedException Exn){
+      //complain to standerd input
+    }
+  }
+  
+  static class main_server implements Runnable{
+    chatter.options opts;
+    BlockingQueue <String> source;
+    private ServerSocket socket;
+    private Socket client;
+    main_server (chatter.options opts, ServerSocket s){
+      source = buffer;
+      socket = s;
+      this.opts = opts;
+    }
+    public void run(){
+      try{
+        Thread qeue_man = new Thread(new queue_manger(source));
+        qeue_man.setDaemon(true);
+        qeue_man.start();
+        for(;;){
+          client = socket.accept();
+          Thread client_thread = new Thread(new new_client(client));
+          client_thread.start();  
+        }
+      } catch (IOException exn){
+        exit(1);
+      }
+    }
+  }
+  
+  static class queue_manger implements Runnable{
+    BlockingQueue <String> source;
+    queue_manger (BlockingQueue<String> source){
+      this.source = source;
+    }
+    public void run(){
+      
+    }
+  }
+  
+
+  
+  static class new_client implements Runnable{
+    BlockingQueue<String> source; 
+    private Socket client;
+    new_client( Socket s){
+      client = s;
+    }
+    public void run(){
+      try{
+        Scanner client_input = new Scanner(client.getInputStream());
+        String[] get_username = client_input.nextLine().split(":",2);
+        if (!list_of_users.check_user(get_username[0])){
+          //create new threads
+          
+        }
+        
+      } catch (IOException exn){
+        
+      }
+    }
+  }
+  
+  
+  static class receiver implements Runnable {
+    private Socket client;
+    private String username;
+    receiver (String new_user,Socket s){
+      username = new_user;
+      client = s;
+    }
+    public void run () {
+      try{
+        for (;;){
+        }
+      } catch (IOException exn){
+        exit(1);
+      } catch (IllegalArgumentException exn){
+        exit(1);
+      }
+    }
+  }
+  
+  static class sender implements Runnable {
+    public void run () {
+    }
+  }
+
+  static class user_manger{
+    private Map <String,Boolean> user_map;
+    user_manger(){
+      user_map = Collections.synchronizedMap (new HashMap<String,Boolean>());
+    }
+    boolean check_user(String username){
+      return user_map.containsKey(username);
+    }
+    boolean get_status(String username){
+      return user_map.get(username); 
+    }
+    void add_user(String username){
+      user_map.put(username,true);
+    }
+    void delete_user(String username){
+      user_map.remove(username); 
+    }
+    //void delete_user(String username)
+  }
+}
+

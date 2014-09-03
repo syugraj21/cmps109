@@ -1,0 +1,16 @@
+Yugraj Singh ysingh@ucsc.edu
+
+README
+Makefile
+util.cpp
+util.h
+object.h
+object.cpp
+interp.h
+interp.cpp
+trace.h
+trace.cpp
+number.h
+number.cpp
+main.cpp
+util.tcc

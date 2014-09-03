@@ -1,0 +1,7 @@
+# Makefile.dep created Mon Feb 25 13:09:13 PST 2013
+listmap.o: listmap.cpp listmap.h xcompare.h trace.h xpair.h templates.tcc
+trace.o: trace.cpp trace.h
+util.o: util.cpp util.h trace.h templates.tcc
+xcompare.o: xcompare.cpp xcompare.h trace.h templates.tcc
+xpair.o: xpair.cpp xpair.h trace.h templates.tcc
+main.o: main.cpp listmap.h xcompare.h trace.h xpair.h util.h

@@ -1,0 +1,1297 @@
+head	1.44;
+access;
+symbols;
+locks;
+comment	@// @;
+
+
+1.44
+date	2013.02.18.22.41.52;	author -;	state -;
+branches;
+next	1.43;
+
+1.43
+date	2013.02.18.22.38.51;	author -;	state -;
+branches;
+next	1.42;
+
+1.42
+date	2013.02.18.21.32.59;	author -;	state -;
+branches;
+next	1.41;
+
+1.41
+date	2013.02.18.21.31.29;	author -;	state -;
+branches;
+next	1.40;
+
+1.40
+date	2013.02.16.22.13.53;	author -;	state -;
+branches;
+next	1.39;
+
+1.39
+date	2013.02.16.22.12.25;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2013.02.16.21.10.19;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2013.02.16.20.43.45;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2013.02.16.20.06.46;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2013.02.16.20.01.13;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2013.02.16.20.00.14;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2013.02.16.19.44.36;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2013.02.16.19.38.44;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2013.02.15.18.22.54;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2013.02.15.02.35.03;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2013.02.15.02.34.45;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2013.02.15.02.34.12;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2013.02.15.02.16.48;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2013.02.15.02.15.29;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2013.02.15.02.14.07;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2013.02.15.01.58.11;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2013.02.15.01.57.38;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2013.02.15.01.34.43;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2013.02.15.01.33.32;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2013.02.15.01.32.35;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2013.02.15.01.28.15;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2013.02.15.01.27.32;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2013.02.15.01.21.56;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2013.02.15.01.15.47;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2013.02.15.01.10.03;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2013.02.15.01.06.36;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2013.02.14.03.06.29;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2013.02.14.03.02.05;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.02.14.03.01.20;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.02.14.02.34.20;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.02.14.02.27.31;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.02.14.02.15.31;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.02.14.02.01.10;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.02.13.20.17.15;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.02.13.20.15.08;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.02.13.20.14.26;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.02.13.20.09.48;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.02.13.19.51.43;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.02.06.19.23.57;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.44
+log
+@-
+@
+text
+@// $Id: interp.cpp,v 1.43 2013-02-18 14:38:51-08 - - $
+
+#include <list>
+#include <map>
+#include <string>
+#include <stdlib.h>
+
+using namespace std;
+
+#include "interp.h"
+#include "object.h"
+#include "util.h"
+
+interpreter::interpreter(const string &filename, ostream &outfile,
+                         objectmap &objmap):
+   outfile(outfile), pagenr(1), objmap(objmap), infilename(filename),
+   page_xoffset (inches (.25)), page_yoffset (inches (.25)) {
+   if (interpmap.size() == 0) {
+      interpmap["define" ] = &interpreter::do_define ;
+      interpmap["draw"   ] = &interpreter::do_draw   ;
+      interpmap["newpage"] = &interpreter::do_newpage;
+   }
+   if (factorymap.size() == 0) {
+      factorymap["text"     ] = &interpreter::make_text     ;
+      factorymap["ellipse"  ] = &interpreter::make_ellipse  ;
+      factorymap["circle"   ] = &interpreter::make_circle   ;
+      factorymap["polygon"  ] = &interpreter::make_polygon  ;
+      factorymap["rectangle"] = &interpreter::make_rectangle;
+      factorymap["square"   ] = &interpreter::make_square   ;
+      factorymap["line"     ] = &interpreter::make_line     ;
+   }
+   prolog ();
+   startpage ();
+}
+
+interpreter::~interpreter () {
+   endpage ();
+   epilog ();
+   objectmap::iterator it = objmap.begin();
+   objectmap::const_iterator end = objmap.end();
+   while(it != end){
+      delete (*it).second;
+      ++it;
+   }
+}
+
+map <string, interpreter::interpreterfn> interpreter::interpmap;
+map <string, interpreter::factoryfn> interpreter::factorymap;
+
+string shift (list<string> &words) {
+   if (words.size() == 0) throw runtime_error ("syntax error");
+   string front = words.front();
+   words.pop_front();
+   return front;
+}
+
+void interpreter::interpret (parameters &params) {
+   TRACE ('i', params);
+   string command = shift (params);
+   interpreterfn function = interpmap[command];
+   if (function == NULL) throw runtime_error ("syntax error");
+   (this->*function) (params);
+}
+
+
+void interpreter::do_define (parameters &params) {
+   TRACE ('i', params);
+   string name = shift (params);
+   objmap[name] = make_object (params);
+}
+
+void interpreter::do_draw (parameters &params) {
+   TRACE ('i', params);
+   string name = shift (params);
+   object *thing = objmap[name];
+   string temp;
+   if (thing == NULL) throw runtime_error (name + ": no such object");
+   degrees angle = degrees (0);
+   if (params.size() == 3) {
+      temp = params.back();
+      if (is_a_num(temp)){
+         angle = degrees (from_string<double> (params.back()));
+         params.pop_back();
+      } else { 
+         throw runtime_error("syntax error: invalid parameters");
+      }
+   }
+   if (params.size() != 2) throw runtime_error ("syntax error");
+   temp = params.back();
+   name = params.front();
+   if (!is_a_num(temp)){
+      throw runtime_error("syntax error: invalid parameters");
+   }
+   if (!is_a_num(name)){
+      throw runtime_error("syntax error: invalid parameters");
+   }
+   xycoords coords (inches (from_string<double> (params.front())),
+                    inches (from_string<double> (params.back())));
+   thing->draw (outfile, coords, angle);
+}
+
+void interpreter::do_newpage (parameters &params) {
+   if (params.size() != 0) throw runtime_error ("syntax error");
+   endpage ();
+   ++pagenr;
+   startpage ();
+}
+
+
+void interpreter::prolog () {
+   outfile << "%!PS-Adobe-3.0" << endl;
+   outfile << "%%Creator: " << sys_info::get_execname () << endl;
+   outfile << "%%CreationDate: " << datestring() << endl;
+   outfile << "%%PageOrder: Ascend" << endl;
+   outfile << "%%Orientation: Portrait" << endl;
+   outfile << "%%SourceFile: " << infilename << endl;
+   outfile << "%%EndComments" << endl;
+}
+
+void interpreter::startpage () {
+   outfile << endl;
+   outfile << "%%Page: " << pagenr << " " << pagenr << endl;
+   outfile << page_xoffset << " " << page_yoffset
+           << " translate" << endl;
+   outfile << "/Courier findfont 10 scalefont setfont" << endl;
+   outfile << "0 0 moveto (" << infilename << ":"
+           << pagenr << ") show" << endl;
+
+}
+
+void interpreter::endpage () {
+   outfile << endl;
+   outfile << "showpage" << endl;
+   outfile << "grestoreall" << endl;
+}
+
+void interpreter::epilog () {
+   outfile << endl;
+   outfile << "%%Trailer" << endl;
+   outfile << "%%Pages: " << pagenr << endl;
+   outfile << "%%EOF" << endl;
+
+}
+
+
+object *interpreter::make_object (parameters &command) {
+   TRACE ('f', command);
+   string type = shift (command);
+   factoryfn func = factorymap[type];
+   if (func == NULL) throw runtime_error (type + ": no such object");
+   return (this->*func) (command);
+}
+
+object *interpreter::make_text (parameters &command) {
+   TRACE ('f', command);
+   if (command.size() < 2){
+      throw runtime_error("syntax error: invalid parameters for text");
+   }
+
+   string temp = shift(command);
+   double font_size;
+   string font = "";
+   string text_data = "";
+   //size_t found;
+   
+   //check to see if the first string is comprised of digits
+   //found = temp.find_first_not_of("0123456789.");
+
+   if (is_a_num(temp)){
+      font_size = from_string<double>(temp); 
+      font = shift(command);
+   } else {
+      font_size = 12;
+      font = temp;
+   }
+   /*
+   parameters::const_iterator begin = command.begin();
+   parameters::const_iterator end = command.end();
+   */
+   while (!command.empty()){
+      text_data += shift(command);
+   }
+   string::iterator itor = text_data.begin();
+   string::const_iterator end = text_data.end();
+
+   while (itor != end){
+      if ( *itor == '(' || *itor == ')' || *itor == '\\'){  
+         text_data.insert(itor,'\\');
+          ++itor;
+      }
+      ++itor;
+   }
+   return new text (font, points(font_size),text_data);
+}
+
+object *interpreter::make_ellipse (parameters &command) {
+   TRACE ('f', command);
+   if (command.size() < 2 || command.size() > 3){
+      throw runtime_error("invalid number parameters for ellipse");
+   }
+   double height;
+   double width;
+   double thick = 2;
+   string temp;
+
+   temp = shift(command);
+   if (is_a_num(temp)){
+      height = from_string<double>(temp);
+   } else {
+      throw runtime_error("syntax error: invalid parameters");
+   }
+   
+   temp = shift(command);
+   if (is_a_num(temp)){
+      width = from_string<double>(temp);
+   } else {
+      throw runtime_error("syntax error: invalid paramters");
+   }
+      
+   if (!command.empty()){
+      temp = shift(command);
+      if (is_a_num(temp)){
+         thick = from_string<double>(temp);
+      } else {
+         throw runtime_error("syntax error:invalid paramters");
+      }
+   }
+   return new ellipse (inches(height), inches(width), points(thick));
+}
+
+object *interpreter::make_circle (parameters &command) {
+   TRACE ('f', command);
+   if (command.size() < 1 || command.size() > 2){
+      throw runtime_error("invalid number of parameters");
+   } 
+   double dia;
+   double thick = 2;
+   string temp;
+   temp = shift(command);
+   if (is_a_num(temp)){
+      dia = from_string<double>(temp);
+   } else {
+      throw runtime_error("syntax error: invalid parameters");
+   }
+   if (!command.empty()){
+      temp = shift(command);
+      if (is_a_num(temp)){
+         thick = from_string<double>(temp);
+      } else {
+         throw runtime_error("syntax error: invalid parameters");
+      }
+   }
+   return new circle (inches(dia), points(thick));
+}
+
+object *interpreter::make_polygon (parameters &command) {
+   TRACE ('f', command);
+   if (command.size() <= 1){
+       throw runtime_error("invalid number of parameters");
+   }
+   double thick = 2;
+   coordlist coord;
+   string temp;
+   //get the thickness
+   if ((command.size() % 2) != 0){
+      temp = command.back();
+      if(is_a_num(temp)){
+         thick = from_string<double>(temp);
+      } else {
+         throw runtime_error("syntax error: invalid parameters");
+      }
+      command.pop_back();
+   }
+
+   while (!command.empty()){
+      string x = shift(command);
+      string y = shift(command);
+      if (is_a_num(x) && is_a_num(y)){
+         xycoords xy_pair = xycoords(inches(from_string<double>(x)),
+         inches(from_string<double>(y)));
+         coord.push_back(xy_pair); 
+      } else {
+         throw runtime_error("syntax error: invalid parameters");
+      }
+      
+   }
+   return new polygon (coord, points(thick));
+}
+
+object *interpreter::make_rectangle (parameters &command) {
+   TRACE ('f', command);
+   if (command.size() < 2 || command.size() > 3){
+      throw runtime_error("invalid number of parameters");
+   }
+   double height;
+   double width;
+   double thick = 2;
+   string temp;
+   
+   temp = shift(command);
+   if(is_a_num(temp)){
+      height = from_string<double>(temp);
+   } else {
+      throw runtime_error("syntax error: invalid parameters");
+   }
+
+   temp = shift(command);
+   if(is_a_num(temp)){
+      width = from_string<double>(temp);
+   } else {
+      throw runtime_error("syntax error: invalid parameters");
+   }
+   if(!command.empty()){
+      temp = shift(command);
+      if(is_a_num(temp)){
+         thick = from_string<double>(temp);
+      } else {
+         throw runtime_error("syntax error: invalid parameters");
+      }
+   }
+   return new rectangle (inches(height), inches(width), points(thick));
+}
+
+object *interpreter::make_square (parameters &command) {
+   TRACE ('f', command);
+   if (command.size() < 1 || command.size() > 2){
+      throw runtime_error("invalid number of parameters");
+   }
+   double width;
+   double thick = 2;
+   string temp;
+
+   temp = shift(command);
+   if (is_a_num(temp)){
+      width = from_string<double>(temp);
+   } else {
+      throw runtime_error("syntax error: invalid parameters");
+   }
+   if (!command.empty()){
+      temp = shift(command);
+      if (is_a_num(temp)){
+         thick = from_string<double>(temp);
+      } else {
+         throw runtime_error("syntax error: invalid parameters");
+      }
+   }
+   return new square (inches(width), points(thick));
+}
+
+object *interpreter::make_line (parameters &command) {
+   TRACE ('f', command);
+   if (command.size() < 1 || command.size() > 2){
+      throw runtime_error("invalid number of parameters");
+   }
+   double length;
+   double thick = 2;
+   string temp;
+   
+   temp = shift(command);
+   if (is_a_num(temp)){
+      length = from_string<double>(temp);
+   } else {
+      throw runtime_error("syntax error: invalid parameters");
+   }
+   if (!command.empty()){
+      temp = shift(command);
+      if(is_a_num(temp)){
+         thick = from_string<double>(temp);
+      } else {
+         throw runtime_error("syntax error: invalid parameters");
+      }
+   }
+   return new line (inches(length), points(thick));
+}
+
+bool interpreter::is_a_num(const string &input){
+   double temp;
+   try {
+     temp = from_string<double>(input);
+     return true;
+   } catch (domain_error) {
+     return false;
+   }
+   /*string::const_iterator itor = input.begin();
+   string::const_iterator end = input.end();
+   while (itor != end && isdigit(*itor)){
+      ++itor;
+   }
+   return itor == end && !input.empty();*/
+}
+
+
+@
+
+
+1.43
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.42 2013-02-18 13:32:59-08 - - $
+d43 1
+@
+
+
+1.42
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.41 2013-02-18 13:31:29-08 - - $
+d39 5
+@
+
+
+1.41
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.40 2013-02-16 14:13:53-08 - - $
+d158 1
+a158 1
+   size_t found;
+@
+
+
+1.40
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.39 2013-02-16 14:12:25-08 - - $
+d161 1
+a161 1
+   found = temp.find_first_not_of("0123456789.");
+d163 4
+a166 1
+   if (found != string::npos){
+a168 3
+   } else {
+      font_size = from_string<double>(temp); 
+      font = shift(command);
+@
+
+
+1.39
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.38 2013-02-16 13:10:19-08 - - $
+d373 1
+a373 1
+     temp = from_string<double>(temp);
+@
+
+
+1.38
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.31 2013-02-15 10:22:54-08 - - $
+d70 1
+d74 7
+a80 2
+      angle = degrees (from_string<double> (params.back()));
+      params.pop_back();
+d83 8
+d371 8
+a378 1
+   string::const_iterator itor = input.begin();
+d383 1
+a383 1
+   return itor == end && !input.empty();
+@
+
+
+1.37
+log
+@-
+@
+text
+@d356 1
+a356 1
+bool interpreter::is_a_num(string &input){
+@
+
+
+1.36
+log
+@-
+@
+text
+@d238 30
+a267 1
+   return new polygon (coordlist(), points(0));
+@
+
+
+1.35
+log
+@-
+@
+text
+@d303 22
+a324 1
+   return new line (inches(0), points(0));
+@
+
+
+1.34
+log
+@-
+@
+text
+@d262 1
+a262 1
+      throw rumtime_error("syntax error: invalid parameters");
+d278 1
+a278 1
+      throw rumtime_error("invalid number of parameters");
+@
+
+
+1.33
+log
+@-
+@
+text
+@a218 1
+   size_t found;
+d220 3
+a222 2
+   found = temp.find_first_not_of("0123456789.");
+   if (found != string::npos){
+a223 2
+   } else {
+      dia = atof(temp.c_str());
+d227 3
+a229 2
+      found = temp.find_first_not_of("0123456789.");
+      if (found != string::npos){
+a230 2
+      } else {
+         thick = atof(temp.c_str());
+a245 1
+   int count = command.size();
+d248 21
+a268 8
+   double thick;
+   string temp[];
+   size_t found; 
+   int i = 0;
+   while (!command.empty()){
+      temp[i] = shift(command);
+      found = temp[i].find_first_not_of("0123456789.");
+      if (found != string::npos){
+d271 2
+a272 3
+      ++i;
+   } 
+   return new rectangle (inches(0), inches(0), points(0));
+d277 22
+a298 1
+   return new square (inches(0), points(0));
+@
+
+
+1.32
+log
+@-
+@
+text
+@a184 1
+   size_t found;
+d187 3
+a189 2
+   found = temp.find_first_not_of("0123456789.");
+   if (found != string::npos){
+a190 2
+   } else {
+      height = atof(temp.c_str());
+d192 1
+d194 3
+a196 2
+   found = temp.find_first_not_of("0123456789.");
+   if (found != string::npos){
+a197 2
+   } else {
+      width = atof(temp.c_str());
+d199 1
+d202 3
+a204 2
+      found = temp.find_first_not_of("0123456789.");
+      if (found != string::npos){
+a205 2
+      } else {
+         thick = atof(temp.c_str());
+@
+
+
+1.31
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.22 2013-02-14 17:34:43-08 - - $
+d279 9
+@
+
+
+1.30
+log
+@-
+@
+text
+@d153 1
+a153 1
+      font_size = atof(temp.c_str());
+d248 18
+@
+
+
+1.29
+log
+@-
+@
+text
+@d215 1
+a215 1
+   if (commands.size() < 1 || commands.size() > 2){
+@
+
+
+1.28
+log
+@-
+@
+text
+@d221 1
+a221 1
+   
+d232 1
+a232 1
+      if (found != string::pos){
+@
+
+
+1.27
+log
+@-
+@
+text
+@d215 24
+a238 1
+   return new circle (inches(0), points(0));
+@
+
+
+1.26
+log
+@-
+@
+text
+@d179 1
+a179 2
+      throw runtime_error("syntax error: invalid number 
+parameters for ellipse");
+d197 1
+a197 1
+      throw runtime_erro("syntax error: invalid paramters");
+@
+
+
+1.25
+log
+@-
+@
+text
+@d178 1
+a178 1
+   if (commands.size() < 2 || commands.size() > 3){
+@
+
+
+1.24
+log
+@-
+@
+text
+@d178 34
+a211 2
+   //if (
+   return new ellipse (inches(0), inches(0), points(0));
+@
+
+
+1.23
+log
+@-
+@
+text
+@d178 1
+a178 1
+   if (
+@
+
+
+1.22
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.21 2013-02-14 17:33:32-08 - - $
+d137 1
+a137 1
+      throw runtime_error("syntax error");
+d178 1
+@
+
+
+1.21
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.20 2013-02-14 17:32:35-08 - - $
+d172 1
+a172 1
+   }	  
+@
+
+
+1.20
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.13 2013-02-13 19:06:29-08 - - $
+d169 1
+a169 1
+	 ++itor;
+@
+
+
+1.19
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.18 2013-02-14 17:27:32-08 - - $
+d163 1
+a163 1
+   string::const_iterator itor = text_data.begin();
+d166 1
+a166 1
+   for(; itor != end; ++itor){
+d171 1
+@
+
+
+1.18
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.17 2013-02-14 17:21:56-08 - - $
+d163 2
+a164 2
+   string::const_iterator text_itor = text_data.begin();
+   string::const_iterator text_end = text_data.end();
+d166 1
+a166 1
+   for(; itor != text_end; ++itor){
+@
+
+
+1.17
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.13 2013-02-13 19:06:29-08 - - $
+d166 4
+a169 4
+   for(; text_itor != text_end; ++text_itor){
+      if ( *text_itor == '(' || *text_itor == ')' || *text_itor == '\\'){  
+         text_data.insert(text_itor,'\\');
+	 ++text_itor;
+d172 1
+a172 1
+   return new text (font, points(font_size),test_data);
+@
+
+
+1.16
+log
+@-
+@
+text
+@d167 3
+a169 2
+      if ( *text_itor == '\\' || *text_itor == ')' || *text_itor == '('){  
+         text_itor = text_data.insert(text_itor,'\\');
+@
+
+
+1.15
+log
+@-
+@
+text
+@d144 1
+a144 1
+   unsigned found;
+d167 4
+a170 13
+      char hold = *text_itor;
+      switch (hold) {
+         case '\\' : 
+	    text_itor = text_data.insert(text_itor,'\\');
+	    break;
+	 case '(' :
+	    text_itor = text_data.insert(text_itor,'\\');
+	    break;
+	 case ')':
+	    text_itor = text_data.insert(text_itor,'\\');
+	    break;
+	  }
+    }	  
+@
+
+
+1.14
+log
+@-
+@
+text
+@d167 1
+a167 1
+      string hold = *text_itor;
+d178 2
+a179 3
+      }
+   }
+
+@
+
+
+1.13
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.7 2013-02-13 18:01:10-08 - - $
+d139 1
+a139 2
+   /*parameters::const_iterator begin = command.begin();
+   parameters::const_iterator end = command.end();*/
+d142 6
+a147 2
+   string font;
+   string text_data;
+d149 4
+a152 2
+
+   if (isdigit(temp)){
+a154 3
+   } else {
+      font_size = 12;
+      font = temp;
+d156 1
+d159 20
+a178 3
+   while ( begin != end){
+      text_data +=" " + *begin;
+      ++begin;
+d180 2
+a181 1
+   return new text ("", points(0), string());
+@
+
+
+1.12
+log
+@-
+@
+text
+@d147 1
+a147 1
+   if (isdigit(the)){
+@
+
+
+1.11
+log
+@-
+@
+text
+@d147 1
+a147 1
+   if (isdigit(temp-'0')){
+@
+
+
+1.10
+log
+@-
+@
+text
+@d145 3
+a147 1
+   if (isdigit(temp.c_str())){
+@
+
+
+1.9
+log
+@-
+@
+text
+@d145 1
+a145 1
+   if (isdigit(temp)){
+@
+
+
+1.8
+log
+@-
+@
+text
+@d146 1
+a146 1
+      font_size = atof(temp);
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.1 2013-02-06 11:23:57-08 - - $
+d6 1
+d136 7
+a142 2
+   parameters::const_iterator begin = command.begin();
+   parameters::const_iterator end = command.end();
+a143 1
+   int font_size;
+d145 6
+a150 3
+   if (isdigit(*begin)){
+      font_size = int(*begin);
+      ++begin;
+d152 2
+d155 1
+@
+
+
+1.6
+log
+@-
+@
+text
+@d135 2
+a136 2
+   parameters::string::const_iterator begin = command.begin();
+   parameters::string::const_iterator end = command.end();
+@
+
+
+1.5
+log
+@-
+@
+text
+@d135 2
+a136 2
+   parameters::const_iterator begin = command.begin();
+   parameters::const_iterator end = command.end();
+@
+
+
+1.4
+log
+@-
+@
+text
+@d141 1
+a141 1
+      font_size = *begin+'0';
+@
+
+
+1.3
+log
+@-
+@
+text
+@d140 4
+a144 3
+      if (isdigit(*begin)){
+          font_size = *begin();
+      }
+@
+
+
+1.2
+log
+@-
+@
+text
+@d137 9
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: interp.cpp,v 1.8 2012-04-26 16:42:54-07 - - $
+d135 2
+@

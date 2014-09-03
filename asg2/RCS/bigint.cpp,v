@@ -1,0 +1,3564 @@
+head	1.157;
+access;
+symbols;
+locks;
+comment	@// @;
+
+
+1.157
+date	2013.02.04.23.09.21;	author -;	state -;
+branches;
+next	1.156;
+
+1.156
+date	2013.02.04.23.07.36;	author -;	state -;
+branches;
+next	1.155;
+
+1.155
+date	2013.02.04.23.06.54;	author -;	state -;
+branches;
+next	1.154;
+
+1.154
+date	2013.02.04.23.06.14;	author -;	state -;
+branches;
+next	1.153;
+
+1.153
+date	2013.02.04.23.00.03;	author -;	state -;
+branches;
+next	1.152;
+
+1.152
+date	2013.02.04.22.57.38;	author -;	state -;
+branches;
+next	1.151;
+
+1.151
+date	2013.02.04.22.56.00;	author -;	state -;
+branches;
+next	1.150;
+
+1.150
+date	2013.02.04.22.42.37;	author -;	state -;
+branches;
+next	1.149;
+
+1.149
+date	2013.02.04.22.41.12;	author -;	state -;
+branches;
+next	1.148;
+
+1.148
+date	2013.02.04.22.35.08;	author -;	state -;
+branches;
+next	1.147;
+
+1.147
+date	2013.02.04.22.31.15;	author -;	state -;
+branches;
+next	1.146;
+
+1.146
+date	2013.02.04.22.27.21;	author -;	state -;
+branches;
+next	1.145;
+
+1.145
+date	2013.02.04.22.25.30;	author -;	state -;
+branches;
+next	1.144;
+
+1.144
+date	2013.02.04.22.04.02;	author -;	state -;
+branches;
+next	1.143;
+
+1.143
+date	2013.02.04.22.03.24;	author -;	state -;
+branches;
+next	1.142;
+
+1.142
+date	2013.02.04.22.03.02;	author -;	state -;
+branches;
+next	1.141;
+
+1.141
+date	2013.02.04.22.02.28;	author -;	state -;
+branches;
+next	1.140;
+
+1.140
+date	2013.02.04.22.01.24;	author -;	state -;
+branches;
+next	1.139;
+
+1.139
+date	2013.02.04.21.58.01;	author -;	state -;
+branches;
+next	1.138;
+
+1.138
+date	2013.02.04.21.57.19;	author -;	state -;
+branches;
+next	1.137;
+
+1.137
+date	2013.02.04.21.55.32;	author -;	state -;
+branches;
+next	1.136;
+
+1.136
+date	2013.02.04.21.49.40;	author -;	state -;
+branches;
+next	1.135;
+
+1.135
+date	2013.02.04.21.44.59;	author -;	state -;
+branches;
+next	1.134;
+
+1.134
+date	2013.02.04.21.43.55;	author -;	state -;
+branches;
+next	1.133;
+
+1.133
+date	2013.02.04.21.41.02;	author -;	state -;
+branches;
+next	1.132;
+
+1.132
+date	2013.02.04.21.39.07;	author -;	state -;
+branches;
+next	1.131;
+
+1.131
+date	2013.02.04.21.36.16;	author -;	state -;
+branches;
+next	1.130;
+
+1.130
+date	2013.02.04.21.35.23;	author -;	state -;
+branches;
+next	1.129;
+
+1.129
+date	2013.02.04.21.34.19;	author -;	state -;
+branches;
+next	1.128;
+
+1.128
+date	2013.02.04.21.32.58;	author -;	state -;
+branches;
+next	1.127;
+
+1.127
+date	2013.02.04.21.29.02;	author -;	state -;
+branches;
+next	1.126;
+
+1.126
+date	2013.02.04.21.27.16;	author -;	state -;
+branches;
+next	1.125;
+
+1.125
+date	2013.02.04.21.25.25;	author -;	state -;
+branches;
+next	1.124;
+
+1.124
+date	2013.02.04.21.24.41;	author -;	state -;
+branches;
+next	1.123;
+
+1.123
+date	2013.02.04.21.14.13;	author -;	state -;
+branches;
+next	1.122;
+
+1.122
+date	2013.02.04.21.13.28;	author -;	state -;
+branches;
+next	1.121;
+
+1.121
+date	2013.02.04.21.12.52;	author -;	state -;
+branches;
+next	1.120;
+
+1.120
+date	2013.02.04.21.10.19;	author -;	state -;
+branches;
+next	1.119;
+
+1.119
+date	2013.02.04.21.07.36;	author -;	state -;
+branches;
+next	1.118;
+
+1.118
+date	2013.02.04.21.05.36;	author -;	state -;
+branches;
+next	1.117;
+
+1.117
+date	2013.02.04.21.01.55;	author -;	state -;
+branches;
+next	1.116;
+
+1.116
+date	2013.02.04.20.55.27;	author -;	state -;
+branches;
+next	1.115;
+
+1.115
+date	2013.02.04.20.49.22;	author -;	state -;
+branches;
+next	1.114;
+
+1.114
+date	2013.02.04.20.37.26;	author -;	state -;
+branches;
+next	1.113;
+
+1.113
+date	2013.02.04.20.32.01;	author -;	state -;
+branches;
+next	1.112;
+
+1.112
+date	2013.02.03.19.12.27;	author -;	state -;
+branches;
+next	1.111;
+
+1.111
+date	2013.02.03.19.10.46;	author -;	state -;
+branches;
+next	1.110;
+
+1.110
+date	2013.02.03.19.10.05;	author -;	state -;
+branches;
+next	1.109;
+
+1.109
+date	2013.02.03.19.04.49;	author -;	state -;
+branches;
+next	1.108;
+
+1.108
+date	2013.02.03.02.50.35;	author -;	state -;
+branches;
+next	1.107;
+
+1.107
+date	2013.02.03.02.43.14;	author -;	state -;
+branches;
+next	1.106;
+
+1.106
+date	2013.02.03.02.42.22;	author -;	state -;
+branches;
+next	1.105;
+
+1.105
+date	2013.02.03.02.40.22;	author -;	state -;
+branches;
+next	1.104;
+
+1.104
+date	2013.02.03.02.36.17;	author -;	state -;
+branches;
+next	1.103;
+
+1.103
+date	2013.02.03.02.35.04;	author -;	state -;
+branches;
+next	1.102;
+
+1.102
+date	2013.02.03.02.34.01;	author -;	state -;
+branches;
+next	1.101;
+
+1.101
+date	2013.02.03.02.28.55;	author -;	state -;
+branches;
+next	1.100;
+
+1.100
+date	2013.02.03.02.28.29;	author -;	state -;
+branches;
+next	1.99;
+
+1.99
+date	2013.02.03.02.27.58;	author -;	state -;
+branches;
+next	1.98;
+
+1.98
+date	2013.02.03.02.25.46;	author -;	state -;
+branches;
+next	1.97;
+
+1.97
+date	2013.02.03.02.06.17;	author -;	state -;
+branches;
+next	1.96;
+
+1.96
+date	2013.02.03.02.04.28;	author -;	state -;
+branches;
+next	1.95;
+
+1.95
+date	2013.02.03.02.03.00;	author -;	state -;
+branches;
+next	1.94;
+
+1.94
+date	2013.02.03.01.46.02;	author -;	state -;
+branches;
+next	1.93;
+
+1.93
+date	2013.02.03.01.45.06;	author -;	state -;
+branches;
+next	1.92;
+
+1.92
+date	2013.02.03.01.43.55;	author -;	state -;
+branches;
+next	1.91;
+
+1.91
+date	2013.02.03.01.42.30;	author -;	state -;
+branches;
+next	1.90;
+
+1.90
+date	2013.02.03.01.39.40;	author -;	state -;
+branches;
+next	1.89;
+
+1.89
+date	2013.02.03.01.18.41;	author -;	state -;
+branches;
+next	1.88;
+
+1.88
+date	2013.02.02.02.46.34;	author -;	state -;
+branches;
+next	1.87;
+
+1.87
+date	2013.02.02.02.46.02;	author -;	state -;
+branches;
+next	1.86;
+
+1.86
+date	2013.02.02.02.44.51;	author -;	state -;
+branches;
+next	1.85;
+
+1.85
+date	2013.02.02.02.01.04;	author -;	state -;
+branches;
+next	1.84;
+
+1.84
+date	2013.02.02.01.45.09;	author -;	state -;
+branches;
+next	1.83;
+
+1.83
+date	2013.02.02.01.39.31;	author -;	state -;
+branches;
+next	1.82;
+
+1.82
+date	2013.02.02.01.36.41;	author -;	state -;
+branches;
+next	1.81;
+
+1.81
+date	2013.02.02.01.30.20;	author -;	state -;
+branches;
+next	1.80;
+
+1.80
+date	2013.02.02.01.28.23;	author -;	state -;
+branches;
+next	1.79;
+
+1.79
+date	2013.02.02.01.27.20;	author -;	state -;
+branches;
+next	1.78;
+
+1.78
+date	2013.02.02.01.26.03;	author -;	state -;
+branches;
+next	1.77;
+
+1.77
+date	2013.02.02.01.22.41;	author -;	state -;
+branches;
+next	1.76;
+
+1.76
+date	2013.02.02.01.18.27;	author -;	state -;
+branches;
+next	1.75;
+
+1.75
+date	2013.02.02.01.05.23;	author -;	state -;
+branches;
+next	1.74;
+
+1.74
+date	2013.02.02.01.04.55;	author -;	state -;
+branches;
+next	1.73;
+
+1.73
+date	2013.02.02.01.02.06;	author -;	state -;
+branches;
+next	1.72;
+
+1.72
+date	2013.02.02.00.59.22;	author -;	state -;
+branches;
+next	1.71;
+
+1.71
+date	2013.02.02.00.58.09;	author -;	state -;
+branches;
+next	1.70;
+
+1.70
+date	2013.02.02.00.52.53;	author -;	state -;
+branches;
+next	1.69;
+
+1.69
+date	2013.02.02.00.52.21;	author -;	state -;
+branches;
+next	1.68;
+
+1.68
+date	2013.02.02.00.50.10;	author -;	state -;
+branches;
+next	1.67;
+
+1.67
+date	2013.02.01.22.03.39;	author -;	state -;
+branches;
+next	1.66;
+
+1.66
+date	2013.02.01.22.02.28;	author -;	state -;
+branches;
+next	1.65;
+
+1.65
+date	2013.02.01.21.58.40;	author -;	state -;
+branches;
+next	1.64;
+
+1.64
+date	2013.02.01.21.56.54;	author -;	state -;
+branches;
+next	1.63;
+
+1.63
+date	2013.02.01.21.21.55;	author -;	state -;
+branches;
+next	1.62;
+
+1.62
+date	2013.02.01.21.19.50;	author -;	state -;
+branches;
+next	1.61;
+
+1.61
+date	2013.02.01.21.16.00;	author -;	state -;
+branches;
+next	1.60;
+
+1.60
+date	2013.02.01.21.10.18;	author -;	state -;
+branches;
+next	1.59;
+
+1.59
+date	2013.02.01.21.09.14;	author -;	state -;
+branches;
+next	1.58;
+
+1.58
+date	2013.02.01.20.56.25;	author -;	state -;
+branches;
+next	1.57;
+
+1.57
+date	2013.02.01.20.55.42;	author -;	state -;
+branches;
+next	1.56;
+
+1.56
+date	2013.02.01.19.44.33;	author -;	state -;
+branches;
+next	1.55;
+
+1.55
+date	2013.02.01.18.45.49;	author -;	state -;
+branches;
+next	1.54;
+
+1.54
+date	2013.02.01.18.28.04;	author -;	state -;
+branches;
+next	1.53;
+
+1.53
+date	2013.02.01.18.26.32;	author -;	state -;
+branches;
+next	1.52;
+
+1.52
+date	2013.02.01.18.20.43;	author -;	state -;
+branches;
+next	1.51;
+
+1.51
+date	2013.02.01.18.19.46;	author -;	state -;
+branches;
+next	1.50;
+
+1.50
+date	2013.02.01.18.18.45;	author -;	state -;
+branches;
+next	1.49;
+
+1.49
+date	2013.02.01.18.04.47;	author -;	state -;
+branches;
+next	1.48;
+
+1.48
+date	2013.02.01.01.41.58;	author -;	state -;
+branches;
+next	1.47;
+
+1.47
+date	2013.02.01.01.41.01;	author -;	state -;
+branches;
+next	1.46;
+
+1.46
+date	2013.02.01.01.39.55;	author -;	state -;
+branches;
+next	1.45;
+
+1.45
+date	2013.02.01.01.39.16;	author -;	state -;
+branches;
+next	1.44;
+
+1.44
+date	2013.02.01.01.33.27;	author -;	state -;
+branches;
+next	1.43;
+
+1.43
+date	2013.02.01.01.02.42;	author -;	state -;
+branches;
+next	1.42;
+
+1.42
+date	2013.02.01.01.00.44;	author -;	state -;
+branches;
+next	1.41;
+
+1.41
+date	2013.02.01.00.58.39;	author -;	state -;
+branches;
+next	1.40;
+
+1.40
+date	2013.02.01.00.55.44;	author -;	state -;
+branches;
+next	1.39;
+
+1.39
+date	2013.01.31.23.48.55;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2013.01.31.02.35.50;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2013.01.31.02.29.12;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2013.01.31.02.28.22;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2013.01.31.02.24.22;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2013.01.31.02.21.38;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2013.01.31.01.39.51;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2013.01.31.01.39.21;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2013.01.31.01.34.32;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2013.01.31.01.34.04;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2013.01.31.01.29.54;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2013.01.31.01.26.22;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2013.01.31.01.25.16;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2013.01.31.01.23.29;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2013.01.30.22.49.28;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2013.01.30.22.42.27;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2013.01.30.22.31.57;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2013.01.30.22.13.49;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2013.01.30.22.13.18;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2013.01.30.22.11.29;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2013.01.30.22.04.16;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2013.01.30.22.02.54;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2013.01.30.21.50.01;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2013.01.30.21.49.23;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2013.01.30.21.47.52;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2013.01.30.20.25.15;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2013.01.30.20.06.54;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2013.01.30.20.03.38;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.01.30.20.02.57;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.01.30.19.59.01;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.01.30.19.57.29;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.01.30.19.56.57;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.01.30.19.51.22;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.01.30.19.36.45;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.01.30.19.36.20;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.01.30.19.27.19;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.01.30.19.25.33;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.01.30.19.23.29;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.01.25.20.44.17;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.157
+log
+@-
+@
+text
+@// $Id: bigint.cpp,v 1.156 2013-02-04 15:07:36-08 - - $
+
+#include <cstdlib>
+#include <exception>
+#include <limits>
+#include <stack>
+#include <stdexcept>
+#include <sstream>
+
+using namespace std;
+
+#include "bigint.h"
+#include "trace.h"
+
+#define CDTOR_TRACE TRACE ('~', this << " -> " << small_value)
+
+bigint::bigint (){
+   negative = false;
+   big_value = new bigvalue_t();
+   CDTOR_TRACE;
+}
+
+bigint::bigint (const bigint &that) {
+   if(this == &that){
+      *this = that;
+   } else {
+      negative = that.negative;
+      big_value = new bigvalue_t(*that.big_value);
+   }
+   CDTOR_TRACE;
+}
+
+bigint &bigint::operator= (const bigint &that) {
+   if (this == &that) return *this;
+   this->negative = that.negative;
+   if (this->big_value != NULL){
+         delete big_value;
+   }
+   this->big_value = new bigvalue_t(*that.big_value);
+   return *this;
+}
+
+bigint::~bigint() {
+   if ( big_value != NULL){
+      delete big_value;
+   }
+   CDTOR_TRACE;
+}
+
+bigint::bigint (int that){
+   string s;
+   negative = false;
+   big_value = new bigvalue_t();
+   stringstream input;
+   input >> that;
+   s = input.str();
+   insert_bigvalue(s);
+   CDTOR_TRACE;
+}
+
+bigint::bigint (const string &that) {
+   negative = false;
+   big_value = new bigvalue_t();
+   insert_bigvalue(that);
+/*
+   string::const_iterator itor = that.begin();
+   string::const_iterator end = that.end();
+   bool isnegative = false;
+   if (*itor == '_') {isnegative = true; ++itor; }
+   int newval = 0;
+   for (; itor != end; ++itor) newval = newval * 10 + *itor - '0';
+   small_value = isnegative ? - newval : + newval;*/
+   CDTOR_TRACE;
+}
+
+void bigint::insert_bigvalue(const string &that){
+   int inc_one = 0;
+   string::const_reverse_iterator itor = that.rbegin();
+   string::const_reverse_iterator end = that.rend();
+   if ( *(end-1) == '_'){
+      negative = true;
+      inc_one = 1;
+   }
+   for(; itor != end-inc_one; ++itor){
+      if (!isdigit(*itor)) {
+         continue;
+      }
+      big_value->push_back( *itor - '0');
+   }
+}
+
+bigint bigint::operator+ (const bigint &that) const {
+   //return this->small_value + that.small_value;
+   bigint new_value = bigint();
+   if (this->negative == that.negative){
+      do_bigadd(this->big_value,that.big_value,new_value.big_value);
+      new_value.set_neg_value(this->negative); 
+   } else { 
+      if ( abscompare(that) >0){
+         do_bigsub(this->big_value,that.big_value,new_value.big_value);
+         new_value.set_neg_value(this->negative);
+      } else if ( abscompare(that) <0){
+         do_bigsub(that.big_value,this->big_value,new_value.big_value);
+         new_value.set_neg_value(that.negative);
+      }
+   }
+   if (new_value.big_value->size() == 0){
+      new_value.set_neg_value(false);
+   }
+   no_leading_zero(new_value);
+   return new_value;
+}
+
+bigint bigint::operator- (const bigint &that) const {
+   bigint new_value = bigint();
+   if(this->negative == that.negative){
+      if (abscompare(that) == 1 ){
+         do_bigsub(this->big_value,that.big_value,new_value.big_value);
+         new_value.set_neg_value(this->negative);
+      } else if (abscompare(that) == -1 ){
+         do_bigsub(that.big_value,this->big_value,new_value.big_value);
+         new_value.set_neg_value(that.negative);
+      }
+   } else {
+      do_bigadd(this->big_value,that.big_value,new_value.big_value);
+      new_value.set_neg_value(this->negative);
+   }
+   if(new_value.big_value->size() == 0){
+       new_value.set_neg_value(false);
+   }
+   no_leading_zero(new_value);
+   return new_value;
+}
+
+void bigint::do_bigadd(const bigvalue_t *this_val, 
+        const bigvalue_t *that_val, bigvalue_t *new_val) const{
+    bigvalue_t::const_iterator this_it = this_val->begin();
+    bigvalue_t::const_iterator this_end = this_val->end();
+    bigvalue_t::const_iterator that_it = that_val->begin();
+    bigvalue_t::const_iterator that_end = that_val->end();
+    int carry_digit = 0;
+    int first_value;
+    int second_value;
+    bool first_num_bool = false;
+    bool second_num_bool = false;
+    if (this_val->size() == 0){
+             first_num_bool = true;
+    } 
+    if (that_val->size() == 0){
+         second_num_bool = true;
+    }
+    while (true){
+         if (first_num_bool){
+             first_value = 0;
+         } else {
+             first_value = *this_it;
+         }
+
+         if (second_num_bool){
+              second_value = 0;
+         } else {
+              second_value = *that_it;
+         }
+         int sum = first_value + second_value + carry_digit;
+         carry_digit = 0;
+         if (sum >= 10){
+             sum = sum-10;
+             carry_digit = 1;
+         }
+         new_val->push_back(sum);
+         ++this_it;
+         ++that_it;
+         if (this_it == this_end){
+             first_num_bool = true; 
+         }
+         if (that_it == that_end){
+             second_num_bool = true;
+         }
+
+         if (first_num_bool && second_num_bool){
+             if (carry_digit > 0){
+                 new_val->push_back(carry_digit);
+             }
+             break;
+         } 
+    } 
+    /*while (this_it != this_end && that_it != that_end){
+         if (this_it != this_end){
+            first_value = *this_it;
+            cout<< "first "  << int(*this_it) << endl;
+         } else {
+            first_value = 0;
+         }
+         if (that_it != that_end){
+            second_value = *that_it;
+            cout<< "second " << int(*that_it) << endl;
+         } else {
+            second_value = 0;
+         }
+         int sum = first_value + second_value + carry_digit;
+         carry_digit = 0;
+         if (sum >= 10){
+            carry_digit = 1;
+            sum = sum - 10;
+         }
+         cout << "sum "  << sum << endl;
+         new_val->push_back(sum);
+         if ( this_it != this_end){
+            ++this_it;
+         }
+         if(that_it != that_end){
+            ++that_it;
+         }
+         if (this_it == this_end && that_it == that_end){
+            if (carry_digit > 0){
+               new_val->push_back(carry_digit);
+               break; 
+            }
+         }
+    }*/
+}
+
+void bigint::do_bigsub(const bigvalue_t *big_val,
+      const bigvalue_t *small_val, bigvalue_t *new_val) const{
+   bigvalue_t::const_iterator big_it = big_val->begin();
+   bigvalue_t::const_iterator big_end = big_val->end();
+   bigvalue_t::const_iterator small_it = small_val->begin();
+   bigvalue_t::const_iterator small_end = small_val->end();
+   int carry_digit = 0;
+   int first_value;
+   int second_value;
+   bool first_num_bool = false ;
+   bool second_num_bool = false;
+   if (big_val->size() == 0){
+      first_num_bool = true;
+   } 
+   if (small_val->size() == 0){
+      second_num_bool = true;
+   }
+   while(true){
+      if (first_num_bool){
+         first_value = 0;
+      } else {
+         first_value = *big_it; //- carry_digit;
+         //cout << int(*big_it) << endl;
+      }
+      if (second_num_bool){
+         second_value = 0;
+      } else {
+         second_value = *small_it;
+      }
+     
+     /* if (first_value < second_value){
+         first_value += 10;
+         carry_digit = 1;
+      } else {
+         carry_digit = 0; 
+      }*/
+      int diff = first_value - second_value - carry_digit;
+      carry_digit = 0;
+      if( diff < 0 && !first_num_bool){
+          carry_digit = 1;
+          diff = diff + 10;
+      }
+      
+      new_val->push_back(diff);
+      ++big_it;
+      ++small_it;
+      if (big_it == big_end && !first_num_bool){
+         first_num_bool = true; 
+      }
+      if (small_it == small_end && !second_num_bool){
+         second_num_bool = true;
+      }
+      if (first_num_bool && second_num_bool){
+         break;
+      }
+   }
+}
+
+bigint bigint::operator- () const {
+   bigint temp = *this;
+   temp.set_neg_value(!this->negative);
+   return temp;
+}
+
+void bigint::set_neg_value(const bool &that){
+   negative = that;
+}
+
+int bigint::compare (const bigint &that) const {
+   if (this == &that){
+      return 0;
+   } else if (this->big_value->size() != that.big_value->size()){/*
+      if (this->negative == false && that.negative == false){
+          if (this->size() > that.size()){
+             return +1;
+          } else {
+             return -1;
+          }
+      } else if (this->negative == true && that.negative == true){
+          if(this->size() > that.size()){
+             return -1;
+          } else {
+             return +1;
+          }
+      } else {
+          if(this->negative == false){
+             return +1;
+          } else {
+             return -1;
+          }
+      }*/
+      return compare_unequal_size(that);
+   } else {
+      return compare_equal_size(that);
+   }
+   /*
+   return this->small_value < that.small_value ? -1
+        : this->small_value > that.small_value ? +1 : 0;*/
+}
+
+int bigint::compare_unequal_size(const bigint &that) const{ 
+   if (this->negative == false && that.negative == false){
+       if (this->big_value->size() > that.big_value->size()){
+           return +1;
+       } else {
+           return -1;
+       }
+   } else if (this->negative == true && that.negative == true){
+       if(this->big_value->size() > that.big_value->size()){
+           return -1;
+       } else {
+           return +1;
+           }
+   } else {
+       if(this->negative == false){
+           return +1;
+       } else {
+           return -1;
+       }
+   }
+}
+
+int bigint::compare_equal_size(const bigint &that) const{
+   bigvalue_t::const_reverse_iterator this_it =
+        this->big_value->rbegin();
+   bigvalue_t::const_reverse_iterator this_end =
+        this->big_value->rend();
+   bigvalue_t::const_reverse_iterator that_it =
+        that.big_value->rbegin();
+   bigvalue_t::const_reverse_iterator that_end = 
+        that.big_value->rend();
+   if (this->negative == false && that.negative == true){
+      return +1;
+   } else if (this->negative == true && that.negative == false){
+      return -1;
+   } else if (this->negative == false && that.negative == false){
+      while (this_it != this_end && that_it != that_end){
+         if (*this_it > *that_it){
+            return +1;
+         } else if (*this_it < *that_it){ 
+            return -1;
+         }
+         ++this_it;
+         ++that_it;
+      }  
+   } else {
+      while (this_it != this_end && that_it != that_end){
+         if (*this_it < *that_it){
+            return +1;
+         } else if (*this_it > *that_it){
+            return -1; 
+         }
+      }
+   }
+   return 0;
+}
+
+int bigint::abscompare (const bigint &that) const {
+   /*return abs (this->small_value) < abs (that.small_value) ? -1
+        : abs (this->small_value) > abs (that.small_value) ? +1 : 0;*/
+   bigvalue_t::const_reverse_iterator this_it =
+        this->big_value->rbegin();
+   bigvalue_t::const_reverse_iterator this_end =
+        this->big_value->rend();
+   bigvalue_t::const_reverse_iterator that_it =
+        that.big_value->rbegin();
+   bigvalue_t::const_reverse_iterator that_end =
+        that.big_value->rend();
+   if ( big_value->size() > that.big_value->size()){
+       return 1;
+   } else if (big_value->size() < that.big_value->size()){
+       return -1;
+   } else {    
+    while (this_it != this_end && that_it != that_end){
+        if (*this_it > *that_it){
+           return +1;
+        } else if (*this_it < *that_it) {
+           return -1;
+        }
+        ++this_it;
+        ++that_it;
+    }
+   }
+   return 0;
+}
+
+int bigint::smallint () const {
+   if (*this < numeric_limits<int>::min()
+    || *this > numeric_limits<int>::max())
+               throw range_error ("smallint: out of range");
+   bigvalue_t::const_iterator itor = big_value->begin();
+   bigvalue_t::const_iterator end = big_value->end();
+   int small_val = 0;
+   int mul_of_10 = 1;
+   while (itor != end){
+      small_val = small_val + (mul_of_10 * (*itor));
+      mul_of_10 *= 10;
+      ++itor;
+   }
+   if (this->negative ==true){
+      small_val = -small_val;
+   }
+   return small_val;
+}
+
+bigint bigint::mul_by_2 () {
+   bigint new_val = bigint();
+   do_bigadd(big_value,big_value,new_val.big_value);
+   return new_val;
+}
+
+static bigpair popstack (stack <bigpair> &egyptstack) {
+   bigpair result = egyptstack.top ();
+   egyptstack.pop();
+   return result;
+}
+
+
+//
+// Ancient Egyptian multiplication algorithm.
+//
+bigint bigint::operator* (const bigint &that) const {
+   bigint top = that;
+   bigint count =  bigint("1");
+   bigint this_val = *this;
+   bigint new_val;
+   //cout<<"before loop"<<endl;
+   //cout<<count<<endl;
+   //cout<<top<<endl;
+   //cout<<*this<<endl;
+   TRACE ('*', *this << " * " << that);
+   stack <bigpair> egyptstack;
+   while (count <= *this ){
+      egyptstack.push(bigpair(count,top));
+      top = top.mul_by_2();
+      count = count.mul_by_2();
+      if (count > *this){
+         break;
+      }
+   }
+   while (!egyptstack.empty()){
+      bigpair egypt_pair = popstack(egyptstack);
+      //cout <<"egypt_pair: " <<egypt_pair.first<<endl;
+      if (egypt_pair.first <= this_val){
+         this_val = this_val - egypt_pair.first;
+         new_val = new_val + egypt_pair.second;
+        // cout << this_val<< endl;
+      }
+      //cout<<"this_val: "<< this_val << endl;
+      //cout<< "new_val: "<<new_val<<endl;
+   }
+   if (this->negative != that.negative){
+      new_val.set_neg_value(true);
+   }
+   return new_val;
+}
+
+//
+// Ancient Egyptian division algorithm.
+//
+bigpair bigint::div_rem (const bigint &that) const {
+   if (that == 0) throw range_error ("divide by 0");
+   bigint count= bigint("1");
+   bigint top = that;
+   TRACE ('/', *this << " /% " << that);
+   stack <bigpair> egyptstack;
+   bigint quotient = bigint("0");
+   bigint remainder = *this;
+   while (top <= *this){
+      egyptstack.push(bigpair(count,top));
+      count = count.mul_by_2();
+      top = top.mul_by_2();
+   } 
+   while (!egyptstack.empty()){
+      bigpair egypt_pair = popstack(egyptstack);
+      if (egypt_pair.second <= remainder){
+         remainder = remainder - egypt_pair.second;
+         quotient = quotient + egypt_pair.first;
+      }
+   }
+   return bigpair (quotient, remainder);
+}
+
+bigint bigint::operator/ (const bigint &that) const {
+   return div_rem (that).first;
+}
+
+bigint bigint::operator% (const bigint &that) const {
+   return div_rem (that).second;
+}
+
+
+#define TRACE_POW TRACE ('^', "result: " << result \
+                  << ", base: " << base << ", expt: " << expt);
+bigint bigint::pow (const bigint &that) const {
+   bigint base = *this;
+   if (that > 999) throw range_error ("exp too big");
+   int expt = that.smallint();
+   bigint result = 1;
+   TRACE_POW;
+   if (expt < 0) {
+      base = 1 / base;
+      expt = - expt;
+   }
+   while (expt > 0) {
+      TRACE_POW;
+      if (expt & 1) { //odd
+         result = result * base;
+         --expt;
+      }else { //even
+         base = base * base;
+         expt /= 2;
+      }
+   }
+   TRACE_POW;
+   return result;
+}
+
+//
+// Macros can make repetitive code easier.
+//
+
+#define COMPARE(OPER) \
+   bool bigint::operator OPER (const bigint &that) const { \
+      return compare (that) OPER 0; \
+   }
+COMPARE (==)
+COMPARE (!=)
+COMPARE (< )
+COMPARE (<=)
+COMPARE (> )
+COMPARE (>=)
+
+#define INT_LEFT(RESULT,OPER) \
+   RESULT operator OPER (int left, const bigint &that) { \
+      return bigint (left) OPER that; \
+   }
+INT_LEFT (bigint, +)
+INT_LEFT (bigint, -)
+INT_LEFT (bigint, *)
+INT_LEFT (bigint, /)
+INT_LEFT (bigint, %)
+INT_LEFT (bool, ==)
+INT_LEFT (bool, !=)
+INT_LEFT (bool, < )
+INT_LEFT (bool, <=)
+INT_LEFT (bool, > )
+INT_LEFT (bool, >=)
+
+ostream &operator<< (ostream &out, const bigint &that) {
+   bigint::bigvalue_t::const_reverse_iterator itor =
+         that.big_value->rbegin();
+   bigint::bigvalue_t::const_reverse_iterator end =
+         that.big_value->rend();
+   while (itor != end){
+      out << int(*itor); 
+      ++itor;
+   }
+   //out << that.small_value;
+   return out;
+}
+
+void bigint::no_leading_zero(bigint &that) const{
+   bigint::bigvalue_t::const_reverse_iterator itor =
+          that.big_value->rbegin();
+   bigint::bigvalue_t::const_reverse_iterator end = 
+          that.big_value->rend();
+   while (itor != end && *itor ==  0){
+      that.big_value->pop_back();
+      ++itor;     
+   } 
+}
+
+
+
+@
+
+
+1.156
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.155 2013-02-04 15:06:54-08 - - $
+d465 1
+a465 1
+      /cout <<"egypt_pair: " <<egypt_pair.first<<endl;
+@
+
+
+1.155
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.154 2013-02-04 15:06:14-08 - - $
+d450 1
+a450 1
+  // cout<<count<<endl;
+a455 1
+    //cout<<"in while"<<endl;
+@
+
+
+1.154
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.153 2013-02-04 15:00:03-08 - - $
+d456 1
+a456 1
+    //  cout<<"in while"<<endl;
+@
+
+
+1.153
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.152 2013-02-04 14:57:38-08 - - $
+d449 4
+a452 4
+   cout<<"before loop"<<endl;
+   cout<<count<<endl;
+   cout<<top<<endl;
+   cout<<*this<<endl;
+d466 1
+a466 1
+      cout <<"egypt_pair: " <<egypt_pair.first<<endl;
+d470 1
+a470 1
+         cout << this_val<< endl;
+d472 2
+a473 2
+      cout<<"this_val: "<< this_val << endl;
+      cout<< "new_val: "<<new_val<<endl;
+@
+
+
+1.152
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.151 2013-02-04 14:56:00-08 - - $
+d467 1
+a467 1
+      if (egypt_pair.first < this_val){
+d499 1
+a499 1
+      if (egypt_pair.second < remainder){
+@
+
+
+1.151
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.150 2013-02-04 14:42:37-08 - - $
+d117 1
+a117 1
+      if (abscompare(that) > 0){
+d120 1
+a120 1
+      } else if (abscompare(that) <0){
+d394 1
+a394 1
+       retutn -1;
+@
+
+
+1.150
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.149 2013-02-04 14:41:12-08 - - $
+d99 1
+a99 1
+      if ( abscompare(that) == 1){
+d102 1
+a102 1
+      } else if ( abscompare(that) == -1){
+d117 1
+a117 1
+      if (abscompare(that) == 1){
+d120 1
+a120 1
+      } else if (abscompare(that) == -1){
+d391 6
+a396 1
+   while (this_it != this_end && that_it != that_end){
+d402 3
+@
+
+
+1.149
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.148 2013-02-04 14:35:08-08 - - $
+d171 3
+a173 3
+         //++this_it;
+         //++that_it;
+         if (++this_it == this_end){
+d176 1
+a176 1
+         if (++that_it == that_end){
+@
+
+
+1.148
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.147 2013-02-04 14:31:15-08 - - $
+d171 3
+a173 3
+         ++this_it;
+         ++that_it;
+         if (this_it == this_end){
+d176 1
+a176 1
+         if (that_it == that_end){
+@
+
+
+1.147
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.146 2013-02-04 14:27:21-08 - - $
+d459 1
+a459 1
+      if (egypt_pair.first <= this_val){
+d488 1
+a488 1
+   }
+d491 1
+a491 1
+      if (egypt_pair.second <= remainder){
+d493 1
+a493 1
+          quotient = quotient + egypt_pair.first;
+@
+
+
+1.146
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.145 2013-02-04 14:25:30-08 - - $
+d478 1
+a478 1
+   bigint count("1");
+d482 1
+a482 1
+   bigint quotient("0");
+@
+
+
+1.145
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.144 2013-02-04 14:04:02-08 - - $
+d462 1
+@
+
+
+1.144
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.123 2013-02-04 13:14:13-08 - - $
+d259 2
+a260 1
+      int diff = first_value - second_value + carry_digit;
+d262 2
+a263 4
+          carry_digit = -1;
+          diff += 10;
+      } else {
+          carry_digit = 0;
+d265 1
+d269 1
+a269 1
+      if (big_it == big_end){
+d272 1
+a272 1
+      if (small_it == small_end){
+@
+
+
+1.143
+log
+@-
+@
+text
+@a278 3
+   cout<< endl;
+   cout <<"do sub: "<< int(new_val)<<endl;
+   cout<< endl;
+@
+
+
+1.142
+log
+@-
+@
+text
+@d280 1
+a280 1
+   cout <<"do sub: "<< int(*new_val)<<endl;
+@
+
+
+1.141
+log
+@-
+@
+text
+@d280 1
+a280 1
+   cout <<"do sub: "<< *new_val<<endl;
+@
+
+
+1.140
+log
+@-
+@
+text
+@d280 1
+a280 1
+   cout <<"do sub: "<< new_val<<endl;
+@
+
+
+1.139
+log
+@-
+@
+text
+@d279 3
+@
+
+
+1.138
+log
+@-
+@
+text
+@d460 1
+a460 1
+         this_val -=  egypt_pair.first;
+@
+
+
+1.137
+log
+@-
+@
+text
+@d460 1
+a460 1
+         this_val = this_val - egypt_pair.first;
+@
+
+
+1.136
+log
+@-
+@
+text
+@d259 1
+a259 1
+      int diff = first_value - second_value - carry_digit;
+d261 1
+a261 1
+          carry_digit = 1;
+@
+
+
+1.135
+log
+@-
+@
+text
+@d448 1
+a448 1
+      cout<<"in while"<<endl;
+a454 2
+      cout<<count<<endl;
+      cout<<top<<endl;
+d458 1
+d463 2
+@
+
+
+1.134
+log
+@-
+@
+text
+@d460 1
+a460 1
+      if (egypt_pair.first < this_val){
+@
+
+
+1.133
+log
+@-
+@
+text
+@d452 3
+@
+
+
+1.132
+log
+@-
+@
+text
+@a440 1
+   bigint test("100");
+@
+
+
+1.131
+log
+@-
+@
+text
+@d448 1
+a448 1
+   while (count < *this ){
+d458 1
+a458 1
+      if (egypt_pair.first <= this_val){
+@
+
+
+1.130
+log
+@-
+@
+text
+@d448 1
+a448 1
+   while (count <= *this ){
+@
+
+
+1.129
+log
+@-
+@
+text
+@a454 3
+      /*if ( count > 50 ){
+         break;
+       }*/
+@
+
+
+1.128
+log
+@-
+@
+text
+@d455 1
+a455 1
+      if ( count > 50 ){
+d457 1
+a457 1
+       }
+@
+
+
+1.127
+log
+@-
+@
+text
+@d438 1
+a438 1
+   bigint count('0');
+@
+
+
+1.126
+log
+@-
+@
+text
+@d438 1
+a438 1
+   bigint count("0");
+d455 1
+a455 1
+      if ( count > test){
+@
+
+
+1.125
+log
+@-
+@
+text
+@d438 1
+a438 1
+   bigint count = 1;//("0");
+d441 1
+d455 1
+a455 1
+      if ( count > 150){
+@
+
+
+1.124
+log
+@-
+@
+text
+@d438 1
+a438 1
+   bigint count("0");
+@
+
+
+1.123
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.122 2013-02-04 13:13:28-08 - - $
+d438 1
+a438 1
+   bigint count = 1;
+@
+
+
+1.122
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.121 2013-02-04 13:12:52-08 - - $
+d444 1
+a444 1
+   cout<<*this<<end;
+@
+
+
+1.121
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.120 2013-02-04 13:10:19-08 - - $
+d442 2
+a443 2
+   cout<<count<<end;
+   cout<<top<<end;
+@
+
+
+1.120
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.119 2013-02-04 13:07:36-08 - - $
+d441 4
+@
+
+
+1.119
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.118 2013-02-04 13:05:36-08 - - $
+d422 1
+a422 1
+   do_bigadd(this->big_value,this->big_value,new_val.big_value);
+d448 1
+a449 1
+      cout<<count<<endl;
+@
+
+
+1.118
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.117 2013-02-04 13:01:55-08 - - $
+d450 1
+a450 1
+      if ( count > 50){
+@
+
+
+1.117
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.116 2013-02-04 12:55:27-08 - - $
+d450 3
+@
+
+
+1.116
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.115 2013-02-04 12:49:22-08 - - $
+d444 1
+d448 2
+a452 2
+      cout << egypt_pair.first << endl;
+      cout << egypt_pair.second << endl;
+@
+
+
+1.115
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.114 2013-02-04 12:37:26-08 - - $
+d440 1
+a440 1
+   bigint new_val("0");
+d450 2
+@
+
+
+1.114
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.113 2013-02-04 12:32:01-08 - - $
+d440 1
+a440 1
+   bigint new_val;
+@
+
+
+1.113
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.112 2013-02-03 11:12:27-08 - - $
+d466 1
+a466 1
+   bigint count = 1;
+d470 1
+a470 1
+   bigint quotient = 0;
+@
+
+
+1.112
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.111 2013-02-03 11:10:46-08 - - $
+d443 1
+a443 1
+   while (count <= this_val){
+@
+
+
+1.111
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.110 2013-02-03 11:10:05-08 - - $
+d452 1
+a452 1
+	 new_val = new_val + egypt_pair.second;
+d481 1
+a481 1
+	 quotient = quotient + egypt_pair.first;
+@
+
+
+1.110
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.108 2013-02-02 18:50:35-08 - - $
+d480 1
+a480 1
+         remainder = remaindr - egypt_pair.second;
+@
+
+
+1.109
+log
+@-
+@
+text
+@d422 1
+a422 1
+   do_bigadd(this->big_value,this->big_value,new_value.big_value):
+d456 1
+a456 1
+      new_val.set_neg_val(true);
+d479 3
+a481 3
+      if (pair.second <= remainder){
+         remainder = remaindr - pair.second;
+	 quotient = quotient + pair.first;
+@
+
+
+1.108
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.88 2013-02-01 18:46:34-08 - - $
+d405 13
+a417 1
+   return small_value;
+d421 3
+a423 1
+   return this->small_value *= 2;
+d439 2
+d443 16
+a458 7
+   bigint a; // junk code -- delete
+   bigint b; // junk code -- delete
+   egyptstack.push (pair<bigint, bigint> (a, b)); // junk code -- delete
+   popstack (egyptstack); // junk to suppress a warning
+   bigint result = 0;
+   if ((*this < 0) != (that < 0)) result = - result;
+   return result;
+d467 1
+a467 1
+   bigint top = abs (that.small_value);
+d471 13
+a483 1
+   bigint remainder = abs (this->small_value);
+@
+
+
+1.107
+log
+@-
+@
+text
+@d120 1
+a120 1
+      } else{
+@
+
+
+1.106
+log
+@-
+@
+text
+@d529 1
+a529 1
+void bigint::no_leading_zero(bigvalue_t *that) const{
+@
+
+
+1.105
+log
+@-
+@
+text
+@a89 4
+   if (all_zero(big_value)){
+      no_leading_zero(big_value);
+      big_value->push_back('0');
+   }
+d110 1
+a110 1
+   no_leading_zero(new_value.big_value);
+d131 1
+a131 1
+   no_leading_zero(new_value.big_value);
+d530 4
+a533 4
+   /*bigint::*/bigvalue_t::const_reverse_iterator itor =
+          that.->rbegin();
+  /* bigint::*/bigvalue_t::const_reverse_iterator end = 
+          that./*big_value*/->rend();
+a539 12
+bool bigint::all_zero(const bigvalue_t *val){
+   bigvalue_t::const_reverse_iterator itor = val.rbegin();
+   bigvalue_t::const_reverse_iterator end = val.rend();
+   bool flag = true;
+   while (itor != end && flag) {
+      if( *itor > 0){
+         flag = false;
+      }
+      ++itor;
+   } 
+   return flag;
+}
+@
+
+
+1.104
+log
+@-
+@
+text
+@d114 1
+a114 1
+   no_leading_zero(new_value);
+d135 1
+a135 1
+   no_leading_zero(new_value);
+d533 5
+a537 5
+void bigint::no_leading_zero(bigint &that) const{
+   bigint::bigvalue_t::const_reverse_iterator itor =
+          that.big_value->rbegin();
+   bigint::bigvalue_t::const_reverse_iterator end = 
+          that.big_value->rend();
+@
+
+
+1.103
+log
+@-
+@
+text
+@d544 1
+a544 1
+bool bigint::all_zero(const bigvalue_t &val){
+@
+
+
+1.102
+log
+@-
+@
+text
+@d546 1
+a546 1
+   bigvalue_t::const_reverse_iterator end = val.rend()
+@
+
+
+1.101
+log
+@-
+@
+text
+@d544 1
+a544 1
+bool bigint::all_zero(bigvalue_t &val){
+@
+
+
+1.100
+log
+@-
+@
+text
+@d550 1
+a550 1
+         flag = false
+@
+
+
+1.99
+log
+@-
+@
+text
+@d545 2
+a546 2
+   bigvalue_t::const_reverse_iterator itor = val->rbegin();
+   bigvalue_t::const_reverse_iterator end = val->rend()
+@
+
+
+1.98
+log
+@-
+@
+text
+@d544 1
+a544 1
+bool bigint::all_zero(bigvalue_t *val){
+@
+
+
+1.97
+log
+@-
+@
+text
+@d90 4
+d544 13
+@
+
+
+1.96
+log
+@-
+@
+text
+@d529 1
+a529 1
+void bigint::no_leading_zero(bigint &that){
+@
+
+
+1.95
+log
+@-
+@
+text
+@d110 1
+d131 1
+@
+
+
+1.94
+log
+@-
+@
+text
+@d243 1
+a243 1
+         cout << int(*big_it) << endl;
+d527 11
+@
+
+
+1.93
+log
+@-
+@
+text
+@d243 1
+a243 1
+         cout << int(*big_it);
+@
+
+
+1.92
+log
+@-
+@
+text
+@d243 1
+a243 1
+         cout << *big_it;
+@
+
+
+1.91
+log
+@-
+@
+text
+@d243 1
+@
+
+
+1.90
+log
+@-
+@
+text
+@d242 1
+a242 1
+         first_value = *big_it - carry_digit;
+d256 1
+a256 1
+      int diff = first_value - second_value;
+@
+
+
+1.89
+log
+@-
+@
+text
+@d249 2
+a250 2
+
+      if (first_value < second_value){
+d255 7
+a262 1
+      int diff = first_value - second_value;
+@
+
+
+1.88
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.75 2013-02-01 17:05:23-08 - - $
+d114 17
+a130 1
+   return this->small_value - that.small_value;
+@
+
+
+1.87
+log
+@-
+@
+text
+@d242 2
+a243 2
+      ++this_it;
+      ++that_it;
+@
+
+
+1.86
+log
+@-
+@
+text
+@d244 1
+a244 1
+      if (this_it == this_end){
+d247 1
+a247 1
+      if (that_it == that_end){
+@
+
+
+1.85
+log
+@-
+@
+text
+@d206 27
+a232 1
+        const bigvalue_t *small_val, bigvalue_t *new_val) const{
+d234 20
+@
+
+
+1.84
+log
+@-
+@
+text
+@d126 44
+a169 2
+    while(true){
+    //while (this_it != this_end && that_it != that_end){
+d202 1
+a202 1
+    }
+@
+
+
+1.83
+log
+@-
+@
+text
+@d126 2
+a127 1
+    while (this_it != this_end && that_it != that_end){
+@
+
+
+1.82
+log
+@-
+@
+text
+@d129 1
+d135 1
+d145 1
+@
+
+
+1.81
+log
+@-
+@
+text
+@d152 2
+a153 1
+               new_val->push_back(carry_digit); 
+@
+
+
+1.80
+log
+@-
+@
+text
+@d127 3
+a129 1
+         if (this_it == this_end){
+d131 3
+a134 3
+            first_value = *this_it;
+         }
+         if (that_it == that_end){
+a135 2
+         } else {
+            second_value = *that_it;
+@
+
+
+1.79
+log
+@-
+@
+text
+@d152 1
+a152 2
+               new_val->push_back(carry_digit);
+               break; 
+@
+
+
+1.78
+log
+@-
+@
+text
+@d126 1
+a126 2
+    while(1){
+    //while (this_it != this_end && that_it != that_end){
+@
+
+
+1.77
+log
+@-
+@
+text
+@d126 2
+a127 1
+    while (this_it != this_end && that_it != that_end){
+d145 6
+a150 2
+         ++this_it;
+         ++that_it;
+@
+
+
+1.76
+log
+@-
+@
+text
+@d126 1
+a126 1
+    while (this_it != this_end || that_it != that_end){
+@
+
+
+1.75
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.67 2013-02-01 14:03:39-08 - - $
+d126 1
+a126 1
+    while (this_it != this_end && that_it != that_end){
+@
+
+
+1.74
+log
+@-
+@
+text
+@d126 1
+a126 1
+    while (this_it != this_end && that_it != end){
+@
+
+
+1.73
+log
+@-
+@
+text
+@d126 1
+a126 1
+    while (true){
+@
+
+
+1.72
+log
+@-
+@
+text
+@d126 1
+a126 1
+    while (this_it != this_end && that_it != that_end){
+d148 2
+a149 1
+               new_val->push_back(carry_digit); 
+@
+
+
+1.71
+log
+@-
+@
+text
+@d144 3
+a146 3
+         //++this_it;
+         //++that_it;
+         if (++this_it == this_end && ++that_it == that_end){
+@
+
+
+1.70
+log
+@-
+@
+text
+@d144 3
+a146 3
+         ++this_it;
+         ++that_it;
+         if (this_it == this_end && that_it == that_end){
+@
+
+
+1.69
+log
+@-
+@
+text
+@d118 1
+a118 1
+        const bigvalue_t *that_val,const bigvalue_t *new_val) const{
+d155 1
+a155 1
+        const bigvalue_t *small_val,const bigvalue_t *new_val) const{
+@
+
+
+1.68
+log
+@-
+@
+text
+@d143 1
+a143 1
+        // new_val->push_back(sum);
+d148 1
+a148 1
+              // new_val->push_back(carry_digit); 
+@
+
+
+1.67
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.66 2013-02-01 14:02:28-08 - - $
+d143 1
+a143 1
+         new_val->push_back(sum);
+d148 1
+a148 1
+               new_val->push_back(carry_digit); 
+@
+
+
+1.66
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.64 2013-02-01 13:56:54-08 - - $
+d148 1
+a148 1
+               new_val->push_back(carry_digit+'0'); 
+@
+
+
+1.65
+log
+@-
+@
+text
+@d143 1
+a143 1
+         new_value->push_back(sum);
+d148 1
+a148 1
+               new_val->push_back(carry_digit); 
+@
+
+
+1.64
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.62 2013-02-01 13:19:50-08 - - $
+d120 1
+a120 1
+    bigvalue_t::const_iterator this_end = this_value->end();
+d122 1
+a122 1
+    bigvlaue_t::const_iterator that_end = that_val->end();
+@
+
+
+1.63
+log
+@-
+@
+text
+@d119 33
+a151 2
+
+
+@
+
+
+1.62
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.61 2013-02-01 13:16:00-08 - - $
+d117 2
+a118 2
+void bigint::do_bigadd(const bigvalue_t *this_val,const bigvalue_t *that_val,
+            const bigvalue_t *new_val) const{
+d123 2
+a124 2
+void bigint::do_bigsub(const bigvalue_t *big_val,const bigvalue_t *small_val,
+            const bigvalue_t *new_val) const{
+@
+
+
+1.61
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.60 2013-02-01 13:10:18-08 - - $
+d117 2
+a118 2
+void bigint::do_bigadd(const bigvalue_t *this_val,const bigvalue_t that_val,
+            const bigvalue_t new_val) const{
+@
+
+
+1.60
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.59 2013-02-01 13:09:14-08 - - $
+d117 11
+@
+
+
+1.59
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.58 2013-02-01 12:56:25-08 - - $
+d103 1
+a103 1
+         do_bigsub(that.big_value,this->big_value,new_vlaue.big_value);
+@
+
+
+1.58
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.57 2013-02-01 12:55:42-08 - - $
+d96 1
+a96 1
+     // do_bigadd(this->big_value,that.big_value,new_value.big_value);
+d99 3
+a101 2
+      if (abscompare(that) == 1){
+  
+d103 2
+a104 1
+       
+d107 4
+@
+
+
+1.57
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.56 2013-02-01 11:44:33-08 - - $
+d95 1
+a95 1
+   if (this->negative == that->negative){
+@
+
+
+1.56
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.48 2013-01-31 17:41:58-08 - - $
+d94 10
+a103 2
+   if ( compare(that) == 0){
+      mul_by_2
+a104 1
+   
+@
+
+
+1.55
+log
+@-
+@
+text
+@d93 5
+a97 1
+   return this->small_value + that.small_value;
+@
+
+
+1.54
+log
+@-
+@
+text
+@d80 1
+a80 1
+   if ( *(end-1) == '_' || *(end-1) == '-'){
+@
+
+
+1.53
+log
+@-
+@
+text
+@d102 1
+a102 1
+   temp.set_neg(!this->negative);
+d106 1
+a106 1
+void bigint::set_neg(const bool &that){
+@
+
+
+1.52
+log
+@-
+@
+text
+@d181 1
+a181 1
+         } else { 
+d191 1
+a191 1
+         } else {
+@
+
+
+1.51
+log
+@-
+@
+text
+@d210 1
+a210 1
+   while (this_it != this_end() && that_it != that_end){
+@
+
+
+1.50
+log
+@-
+@
+text
+@d202 1
+a202 1
+   bigvalue_t::bigint::const_reverse_iterator this_it =
+d204 1
+a204 1
+   bigvalue_t::bigint::const_reverse_iterator this_end =
+d206 1
+a206 1
+   bigvalue_t::bigint::const_reverse_iterator that_it =
+d208 1
+a208 1
+   bigvalue_t::bigint::const_reverse_iterator that_end =
+@
+
+
+1.49
+log
+@-
+@
+text
+@d177 1
+a177 1
+   } else if (this->negative == true && that.negative == true){
+d200 18
+a217 2
+   return abs (this->small_value) < abs (that.small_value) ? -1
+        : abs (this->small_value) > abs (that.small_value) ? +1 : 0;
+a341 1
+      //out << char(*itor+'0');
+@
+
+
+1.48
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.43 2013-01-31 17:02:42-08 - - $
+d325 2
+a326 1
+      out << char(*itor+'0');
+@
+
+
+1.47
+log
+@-
+@
+text
+@d325 1
+a325 1
+      out << *itor+'0';
+@
+
+
+1.46
+log
+@-
+@
+text
+@d325 1
+a325 1
+      out << *itor;
+@
+
+
+1.45
+log
+@-
+@
+text
+@d320 4
+a323 2
+   bigint::bigvalue_t::const_reverse_iterator itor = that.big_value->rbegin();
+   bigint::bigvalue_t::const_reverse_iterator end = that.big_value->rend();
+@
+
+
+1.44
+log
+@-
+@
+text
+@d320 2
+a321 2
+   bigvalue_t::const_reverse_iterator itor = that.big_value->rbegin();
+   bigvalue_t::const_reverse_iterator end = that.big_value->rend();
+@
+
+
+1.43
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.42 2013-01-31 17:00:44-08 - - $
+d320 7
+a326 1
+   out << that.small_value;
+@
+
+
+1.42
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.41 2013-01-31 16:58:39-08 - - $
+d196 1
+@
+
+
+1.41
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.40 2013-01-31 16:55:44-08 - - $
+d165 8
+a172 4
+   bigvalue_t::const_reverse_iterator this_it = this->big_value->rbegin();
+   bigvalue_t::const_reverse_iterator this_end = this->big_value->rend();
+   bigvalue_t::const_reverse_iterator that_it = that.big_value->rbegin();
+   bigvalue_t::const_reverse_iterator that_end = that.big_value->rend();
+@
+
+
+1.40
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.39 2013-01-31 15:48:55-08 - - $
+d135 1
+a135 1
+      cout << "hellp" << endl;
+d169 1
+a169 1
+   if (this->negative == false && that.negatice == true){
+@
+
+
+1.39
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.1 2013-01-25 12:44:17-08 - - $
+d142 1
+a142 1
+int bigint::compare_unequal_size(const bigint &that) const{
+d165 27
+a191 1
+    
+@
+
+
+1.38
+log
+@-
+@
+text
+@d164 4
+@
+
+
+1.37
+log
+@-
+@
+text
+@d142 1
+a142 1
+int bigint::compare_unequal_size(const bigint &that){
+@
+
+
+1.36
+log
+@-
+@
+text
+@d113 1
+a113 1
+   } else if (this->size() != that.size()){/*
+@
+
+
+1.35
+log
+@-
+@
+text
+@d133 1
+a133 1
+      return this->compare_unequal_size(that);
+d144 1
+a144 1
+       if (this->size() > that.size()){
+d150 1
+a150 1
+       if(this->size() > that.size()){
+@
+
+
+1.34
+log
+@-
+@
+text
+@d133 1
+a133 1
+      return compare_unequal_size(that);
+@
+
+
+1.33
+log
+@-
+@
+text
+@d111 27
+d139 23
+a161 1
+        : this->small_value > that.small_value ? +1 : 0;
+@
+
+
+1.32
+log
+@-
+@
+text
+@d107 1
+a107 1
+	negative = that;
+@
+
+
+1.31
+log
+@-
+@
+text
+@d106 1
+a106 1
+void bigint::set_neg(bool &that){
+@
+
+
+1.30
+log
+@-
+@
+text
+@d107 1
+a107 1
+	this->negative = that;
+@
+
+
+1.29
+log
+@-
+@
+text
+@d101 7
+a107 2
+   this->negative = !this->negative;
+   return *this;
+@
+
+
+1.28
+log
+@-
+@
+text
+@d102 1
+a102 1
+   return this->big_value;
+@
+
+
+1.27
+log
+@-
+@
+text
+@d101 2
+a102 2
+   negative = !negative;
+   return *big_value;
+@
+
+
+1.26
+log
+@-
+@
+text
+@d102 1
+a102 1
+   return big_value;
+@
+
+
+1.25
+log
+@-
+@
+text
+@d101 2
+a102 1
+   return -small_value;
+@
+
+
+1.24
+log
+@-
+@
+text
+@d76 1
+a76 1
+void bigint::insert_bigvalue(const string &s){
+d78 2
+a79 2
+   string::const_reverse_iterator itor = s.rbegin();
+   string::const_reverse_iterator end = s.rend();
+@
+
+
+1.23
+log
+@-
+@
+text
+@d62 4
+d72 1
+a72 1
+   small_value = isnegative ? - newval : + newval;
+@
+
+
+1.22
+log
+@-
+@
+text
+@d81 3
+@
+
+
+1.21
+log
+@-
+@
+text
+@d81 1
+a81 1
+      big_value.push_back( *itor - '0');
+@
+
+
+1.20
+log
+@-
+@
+text
+@d80 1
+a80 1
+   for(; itor != *(end-1); ++itor){
+@
+
+
+1.19
+log
+@-
+@
+text
+@d73 1
+d78 4
+@
+
+
+1.18
+log
+@-
+@
+text
+@d73 2
+a74 2
+   string::const_iterator itor = s.rbegin();
+   string::const_iterator end = s.rend();
+@
+
+
+1.17
+log
+@-
+@
+text
+@d75 1
+a75 2
+   //++end;
+   if ( *(end+1) == '_' || *(end+1) == '-'){
+@
+
+
+1.16
+log
+@-
+@
+text
+@d76 1
+a76 1
+   if ( *(end-1) == '_' || *(end-1) == '-'){
+@
+
+
+1.15
+log
+@-
+@
+text
+@d75 2
+a76 1
+   if ( (*end-1) == '_' || (*end-1) == '-'){
+@
+
+
+1.14
+log
+@-
+@
+text
+@d73 3
+a75 3
+   string::const_iterator itor = s.begin();
+   string::const_iterator end = s.end();
+   if (*itor == '_' || *itor == '-'){
+@
+
+
+1.13
+log
+@-
+@
+text
+@d57 1
+d72 7
+@
+
+
+1.12
+log
+@-
+@
+text
+@d8 1
+d54 3
+a56 3
+   stringstream out;
+   out >> that;
+   s = out.str();
+@
+
+
+1.11
+log
+@-
+@
+text
+@d53 3
+a55 3
+   stringstream input;
+   input >> that;
+   s = input.str();
+@
+
+
+1.10
+log
+@-
+@
+text
+@d54 1
+a54 1
+   input << that;
+a55 1
+   cout << that;
+@
+
+
+1.9
+log
+@-
+@
+text
+@d53 1
+a53 1
+   ostringstream input;
+@
+
+
+1.8
+log
+@-
+@
+text
+@d18 1
+a18 1
+   big_value = new bigvlue_t();
+@
+
+
+1.7
+log
+@-
+@
+text
+@d18 1
+a18 1
+   big_value = new bigvalue_t();
+d50 1
+d53 4
+a56 1
+   string s = '0'+ that;
+@
+
+
+1.6
+log
+@-
+@
+text
+@d43 3
+a45 2
+   delete [] big_value;
+   delete big_value;
+d52 1
+a52 1
+   big_value->push_back(that);
+@
+
+
+1.5
+log
+@-
+@
+text
+@d24 1
+a24 1
+      *this = that
+@
+
+
+1.4
+log
+@-
+@
+text
+@d24 4
+a27 1
+      delete[] big_value;
+a28 2
+   negative = that.negative;
+   big_value = new bigvalue_t(*that.big_value);
+@
+
+
+1.3
+log
+@-
+@
+text
+@d24 1
+a24 1
+      delete[] bigvalue;
+d37 1
+a37 1
+   this->big_value = new big_value_t( that.big_value);
+@
+
+
+1.2
+log
+@-
+@
+text
+@d16 1
+a16 1
+bigint::bigint ():{
+d24 1
+a24 1
+      return *this;
+d27 1
+a27 1
+   big_vlaue = new bigvalue_t( that.big_value);
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.cpp,v 1.3 2012-04-10 21:02:20-07 - - $
+d16 3
+a18 1
+bigint::bigint (): small_value (0) {
+d22 6
+a27 2
+bigint::bigint (const bigint &that): small_value (that.small_value) {
+   *this = that;
+d33 5
+a37 1
+   this->small_value = that.small_value;
+d42 2
+d47 4
+a50 1
+bigint::bigint (int that): small_value (that) {
+@

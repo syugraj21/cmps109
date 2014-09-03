@@ -1,0 +1,18 @@
+/*
+Yugraj Singh 
+
+note: i was unable to get lsr and rmr working
+*/
+
+inode.h
+inode.cpp
+util.h
+util.cpp
+trace.h
+trace.cpp
+yshell.cpp
+commands.h
+commands.cpp
+Makefile
+README
+

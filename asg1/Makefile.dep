@@ -1,0 +1,6 @@
+# Makefile.dep created Wed Jan  9 15:02:13 PST 2013
+commands.o: commands.cpp commands.h inode.h trace.h util.h
+inode.o: inode.cpp trace.h inode.h util.h
+trace.o: trace.cpp trace.h
+util.o: util.cpp util.h trace.h
+yshell.o: yshell.cpp commands.h inode.h trace.h util.h

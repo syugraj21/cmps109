@@ -1,0 +1,15 @@
+Yugraj Singh
+
+README
+Makefile
+main.cpp
+bigint.h
+bigint.cpp
+scanner.h
+scanner.cpp
+trace.h
+trace.cpp
+util.h
+util.cpp
+iterstack.h
+iterstack.cpp

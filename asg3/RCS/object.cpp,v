@@ -1,0 +1,485 @@
+head	1.15;
+access;
+symbols;
+locks;
+comment	@// @;
+
+
+1.15
+date	2013.02.18.23.48.12;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2013.02.18.23.41.43;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2013.02.18.23.38.11;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2013.02.18.23.05.59;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.02.18.23.05.21;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.02.18.23.02.29;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.02.18.23.00.12;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.02.18.22.56.30;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.02.18.20.51.03;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.02.18.20.46.14;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.02.18.20.43.07;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.02.18.20.38.47;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.02.18.20.34.32;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.02.18.20.22.30;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.02.06.19.23.58;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.15
+log
+@-
+@
+text
+@// $Id: object.cpp,v 1.14 2013-02-18 15:41:43-08 - - $
+
+#include <typeinfo>
+
+using namespace std;
+
+#include "object.h"
+#include "util.h"
+
+#define WHOAMI "[" << typeid(*this).name() << "@@" \
+               << reinterpret_cast<const void *const> (this) << "]"
+
+#define CTRACE(ARGS) TRACE ('c', WHOAMI << " " << ARGS)
+
+#define DTRACE(ARGS) TRACE ('d', WHOAMI << " coords=" << coords \
+                     << " angle=" << angle << endl << ARGS);
+
+object::~object () {
+   CTRACE ("delete");
+}
+
+text::text (const string &font, const points &size, const string &data):
+      fontname(font), fontsize(size), textdata(data) {
+   CTRACE ("font=" << fontname << " size=" << fontsize
+           << " \"" << textdata << "\"")
+}
+
+ellipse::ellipse (const inches &initheight, const inches &initwidth,
+                  const points &initthick):
+      shape(initthick), height(initheight), width(initwidth) {
+   CTRACE ("height=" << height << " width=" << width
+           << " thick=" << thick);
+}
+
+circle::circle (const inches &diameter, const points &thick):
+      ellipse (diameter, diameter, thick) {
+}
+
+polygon::polygon (const coordlist &coords, const points &initthick):
+      shape(initthick), coordinates(coords) {
+   CTRACE ( "thick=" << thick << " coords=" << endl
+            << coordinates);
+}
+
+rectangle::rectangle (const inches &height, const inches &width,
+                      const points &initthick):
+      polygon (make_list (height, width), initthick) {
+}
+
+square::square (const inches &width, const points &thick):
+      rectangle (width, width, thick) {
+}
+
+line::line (const inches &length, const points &initthick):
+      polygon (make_list (length), initthick) {
+      
+}
+
+
+void text::draw (ostream &out, const xycoords &coords,
+                 const degrees &angle) {
+   DTRACE ("font=" << fontname << " size=" << fontsize
+           << " \"" << textdata << "\"");
+   double font_size = double(fontsize);
+   double x = double(coords.first);
+   double y = double(coords.second);
+   double ang = double(angle);
+   
+   out << "gsave\n   " << "/" << fontname <<" findfont\n   "
+       << font_size << " scalefont setfont\n   "
+       << x << " " << y << " translate\n   " << ang
+       << " rotate\n   " << "0 0 moveto\n   "
+       << "(" << textdata << ")\n   " <<"show\n"
+       << "grestore" << endl;
+}
+
+void ellipse::draw (ostream &out, const xycoords &coords,
+                    const degrees &angle) {
+   DTRACE ("height=" << height << " width=" << width
+           << " thick=" << thick);
+   double hght = double(height);
+   double wdth = double(width);
+   double thickness = double(thick);
+   double ang = double(angle);
+   double x = double(coords.first);
+   double y = double(coords.second);
+   double xscale, yscale, radius;
+
+   if (hght < wdth){
+     xscale = 1;
+     yscale = hght/wdth;
+     radius = wdth/2;
+   } else {
+     xscale = wdth/hght;
+     yscale = 1;
+     radius = hght/2;
+   } 
+   out << "gsave\n" <<"   newpath\n"
+       <<"   " <<"/save matrix currentmatrix def\n"
+       <<"   " << x << " " << y << " translate\n"
+       <<"   " << ang << " rotate\n" 
+       <<"   " << xscale << " " << yscale << " scale\n" 
+       <<"   " << "0 0 " << radius <<"  0 360 arc\n"
+       <<"   " <<"save setmatrix\n" 
+       <<"   " << thickness << " setlinewidth\n"
+       <<"   stroke\n" << "grestore" << endl;
+}
+
+void polygon::draw (ostream &out, const xycoords &coords,
+                    const degrees &angle) {
+   DTRACE ( "thick=" << thick << " coords=" << endl
+            << coordinates); 
+   double ang = double(angle);
+   double thickness = double(thick);
+   double x = double(coords.first);
+   double y = double(coords.second);
+
+   out << "gsave\n   " << " newpath\n   "
+       << x << " " << y << " translate\n   " << ang << " rotate\n   "
+       << "0 0 moveto\n   ";
+   
+   coordlist::const_iterator it = coordinates.begin();
+   coordlist::const_iterator end = coordinates.end();
+   for (; it != end; ++it){
+      double cx = double(it->first);
+      double cy = double(it->second);
+      out << cx << "  " << cy << " rlineto\n   "; 
+   }
+
+   out << "closepath\n   " << thickness << " setlinewidth\n   "
+       << "stroke\n" << "grestore" << endl;
+}
+
+coordlist rectangle::make_list (const inches &height,
+                                const inches &width) {
+   coordlist coordlist;
+   double hght = double(height);
+   //double wdth = double(width); 
+   inches temp = inches(-hght/PTS_PER_INCH);
+   coordlist.push_back(xycoords(height,inches(0)));
+   coordlist.push_back(xycoords(inches(0),width));
+   coordlist.push_back(xycoords(temp, inches(0)));
+   return coordlist;
+}
+
+coordlist line::make_list (const inches &length) {
+   coordlist coordlist;
+   coordlist.push_back(xycoords(inches(0), length));
+   return coordlist;
+}
+
+
+@
+
+
+1.14
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: object.cpp,v 1.13 2013-02-18 15:38:11-08 - - $
+d139 1
+a139 1
+   inches temp = inches(-hght);
+@
+
+
+1.13
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: object.cpp,v 1.12 2013-02-18 15:05:59-08 - - $
+d119 1
+a119 1
+       << x << " " << y << " tanslate\n   " << ang << " rotate\n   "
+d127 1
+a127 1
+      out << cx << " " << cy << " rlineto\n   "; 
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: object.cpp,v 1.11 2013-02-18 15:05:21-08 - - $
+d103 1
+a103 1
+       <<"   " << "0 0" << radius << " 0 360 arc\n"
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: object.cpp,v 1.10 2013-02-18 15:02:29-08 - - $
+d102 1
+a102 1
+       <<"   " << xscale << " " << yscale < " scale\n" 
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: object.cpp,v 1.9 2013-02-18 15:00:12-08 - - $
+d97 3
+a99 5
+   }
+   string space = "   "; 
+   out << "gsave\n"
+       << space << "newpath\n"
+       <<"   /save matrix currentmatrix def\n"
+d103 2
+a104 2
+       <<"   " << "0 0 moveto" << radius << " 0 360 arc\n"
+       <<"   save setmatrix\n" 
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: object.cpp,v 1.8 2013-02-18 14:56:30-08 - - $
+d97 2
+a98 1
+   } 
+d100 1
+a100 1
+       <<"   newpath\n"
+d105 1
+a105 1
+       <<"   " << "0 0 " << radius << " 0 360 arc\n"
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: object.cpp,v 1.7 2013-02-18 12:51:03-08 - - $
+d104 1
+a104 1
+       <<"   0 0 " << radius << " 0 360 arc\n"
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: object.cpp,v 1.6 2013-02-18 12:46:14-08 - - $
+d98 10
+a107 8
+   
+   out << "gsave\n   " << " newpath\n   "
+       << " /save matrix currentmatrix def\n   "
+       << x << " " << y << " translate\n   " << ang 
+       << " rotate\n   " << xscale << " " << yscale
+       << " scale\n   " << "0 0 " << radius << "0 360 arc\n   "
+       << " save setmatrix\n   " << thickness << " setlinewidth\n   "
+       << "stroke\n" << "grestore" << endl;
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: object.cpp,v 1.5 2013-02-18 12:43:07-08 - - $
+d137 1
+a137 1
+   double wdth = double(width); 
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: object.cpp,v 1.4 2013-02-18 12:38:47-08 - - $
+d70 1
+a70 1
+       << font_size << " scalefont setfont\n   " 
+d73 2
+a74 1
+       << "(" << textdata << ")\n   " <<"show\n"<< "grestore" << endl;	   
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: object.cpp,v 1.3 2013-02-18 12:34:32-08 - - $
+d64 1
+a64 1
+   double font_size = double(fontsize);	   
+d71 3
+a73 4
+       << x << " " << y << " translate\n   " << ang 
+       << " rotate\n   " << "0 0 moveto\n   " 
+       << "(" << textdata << ")\n   " <<"show\n" 
+       << "grestore" << endl;	   
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: object.cpp,v 1.1 2013-02-06 11:23:58-08 - - $
+d139 2
+a140 2
+   coordlist.push_back(xycoords(hght,inches(0)));
+   coordlist.push_back(xycoords(inches(0),wdth));
+@
+
+
+1.2
+log
+@-
+@
+text
+@d73 1
+a73 1
+       << "(" << textdata << ")\n   " <<"show\n 
+d139 2
+a140 2
+   coordlist.push_back(xycoords(height, inches(0)));
+   coordlist.push_back(xycoords(inches(0),width));
+d147 1
+a147 1
+   coordlist.push_back(xycoord(inches(0), length));
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: object.cpp,v 1.4 2012-04-25 20:46:08-07 - - $
+d63 12
+a74 1
+           << " \"" << textdata << "\"")
+d81 25
+d111 20
+a130 1
+            << coordinates);
+d136 6
+d147 1
+@

@@ -1,0 +1,7 @@
+# Makefile.dep created Wed Feb  6 11:23:52 PST 2013
+interp.o: interp.cpp interp.h object.h numbers.h trace.h util.h
+numbers.o: numbers.cpp numbers.h trace.h util.h
+object.o: object.cpp object.h numbers.h trace.h util.h
+trace.o: trace.cpp trace.h
+util.o: util.cpp util.h trace.h util.tcc numbers.h
+main.o: main.cpp interp.h object.h numbers.h trace.h util.h

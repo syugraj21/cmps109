@@ -1,0 +1,3 @@
+constents->dirents.insert(pairs<string, inode*>("./",root));
+constents->dirents.insert(pairs<string, inode*>("../",root));
+
